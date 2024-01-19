@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -11,17 +12,29 @@ const NavbarInteractive = (props) => {
         data-thq="thq-navbar"
         className="navbar-interactive-navbar-interactive"
       >
-        <span className="navbar-interactive-logo">{props.Logo}</span>
+        <Link to="/" className="navbar-interactive-logo">
+          {props.Logo}
+        </Link>
         <div
           data-thq="thq-navbar-nav"
           className="navbar-interactive-desktop-menu"
         >
           <nav className="navbar-interactive-links">
-            <span className="navbar-interactive-nav1">{props.Nav1}</span>
-            <span className="navbar-interactive-nav2">{props.Nav2}</span>
-            <span className="navbar-interactive-nav3">{props.Nav3}</span>
-            <span className="navbar-interactive-nav4">{props.Nav4}</span>
-            <span className="navbar-interactive-nav5">{props.Nav5}</span>
+            <Link to="/contact-and-about" className="navbar-interactive-nav1">
+              {props.Nav1}
+            </Link>
+            <Link to="/contact-and-about" className="navbar-interactive-nav2">
+              {props.Nav2}
+            </Link>
+            <Link to="/contact-and-about" className="navbar-interactive-nav3">
+              {props.Nav3}
+            </Link>
+            <Link to="/contact-and-about" className="navbar-interactive-nav4">
+              {props.Nav4}
+            </Link>
+            <Link to="/contact-and-about" className="navbar-interactive-nav5">
+              {props.Nav5}
+            </Link>
           </nav>
           <div className="navbar-interactive-buttons">
             <button className="navbar-interactive-login button">
