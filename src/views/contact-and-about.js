@@ -37,7 +37,7 @@ const ContactAndAbout = (props) => {
           </div>
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1580894897591-ff1e18c89183?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjMwMHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+            src="/Images/pavona%20decussatus-500w.png"
             className="contact-and-about-details-image"
           />
         </div>
