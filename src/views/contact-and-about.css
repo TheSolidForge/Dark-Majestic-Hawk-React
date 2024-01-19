@@ -79,6 +79,7 @@
   gap: var(--dl-space-space-twounits);
   width: 100%;
   display: flex;
+  position: relative;
   max-width: var(--dl-size-size-maxwidth);
   align-items: flex-start;
   padding-top: var(--dl-space-space-fourunits);
@@ -88,9 +89,19 @@
   padding-bottom: var(--dl-space-space-fourunits);
   background-color: #20394e;
 }
+.contact-and-about-details-image1 {
+  top: 59px;
+  left: 14px;
+  width: 447px;
+  height: 457px;
+  position: absolute;
+  object-fit: cover;
+  border-radius: var(--dl-radius-radius-round);
+}
 .contact-and-about-container2 {
   display: flex;
   max-width: 35%;
+  align-self: flex-end;
   align-items: flex-start;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-unit);
@@ -116,13 +127,11 @@
 }
 .contact-and-about-container3 {
   gap: var(--dl-space-space-oneandhalfunits);
+  width: 642px;
   display: flex;
+  padding: var(--dl-space-space-unit);
   align-items: flex-start;
-  padding-top: var(--dl-space-space-unit);
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-unit);
   background-color: #D9D9D9;
 }
 @media(max-width: 991px) {
@@ -168,6 +177,10 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
     flex-direction: column;
+  }
+  .contact-and-about-details-image1 {
+    margin-top: var(--dl-space-space-threeunits);
+    margin-left: 0px;
   }
   .contact-and-about-container2 {
     max-width: 100%;
