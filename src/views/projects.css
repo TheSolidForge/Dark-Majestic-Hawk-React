@@ -1,0 +1,682 @@
+.projects-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.projects-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: var(--dl-color-primary1-blue80);
+}
+.projects-banner {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.projects-banner1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: var(--dl-size-size-maxwidth);
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-fiveunits);
+  padding-right: var(--dl-space-space-fiveunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+  justify-content: flex-start;
+}
+.projects-banner-heading {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+  font-family: "Raleway";
+  line-height: 1.6;
+}
+.projects-banner-sub-heading {
+  color: var(--dl-color-gray-white);
+  max-width: var(--dl-size-size-maxwidth);
+  text-align: center;
+  line-height: 1.6;
+}
+.projects-banner-button {
+  color: var(--dl-color-gray-white);
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: 1.5rem;
+  border-width: 0px;
+  padding-left: 3rem;
+  border-radius: 45px;
+  padding-right: 3rem;
+  padding-bottom: 1.5rem;
+  background-color: var(--dl-color-primary1-blue100);
+}
+.projects-banner-button:hover {
+  border-color: rgba(41, 20, 119, 0.9);
+  background-color: rgba(41, 20, 119, 0.9);
+}
+.projects-gallery {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects-gallery1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+}
+.projects-gallery-heading {
+  text-align: center;
+  font-family: "Raleway";
+  line-height: 1.6;
+}
+.projects-gallery-sub-heading {
+  color: rgb(153, 153, 153);
+  text-align: center;
+  line-height: 1.6;
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+}
+.projects-container01 {
+  width: 100%;
+  display: grid;
+  grid-gap: var(--dl-space-space-unit);
+  margin-top: var(--dl-space-space-twounits);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.projects-pricing {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects-pricing1 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-fourunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-fourunits);
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.projects-container02 {
+  gap: 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.projects-text {
+  color: var(--dl-color-primary1-blue80);
+  font-family: "Raleway";
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.projects-pricing-heading {
+  font-family: "Raleway";
+  line-height: 1.6;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.projects-pricing-sub-heading {
+  color: var(--dl-color-gray-800);
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.6;
+}
+.projects-container03 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  justify-content: center;
+}
+.projects-pricing-card {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: 450px;
+  min-height: 450px;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: var(--dl-color-primary1-blue60);
+}
+.projects-container04 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.projects-text03 {
+  font-family: "Raleway";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.projects-free-plan-description {
+  line-height: 1.6;
+}
+.projects-container05 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.projects-text04 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.projects-free-plan-price {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.projects-container06 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.projects-container07 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.projects-text07 {
+  color: var(--dl-color-gray-800);
+}
+.projects-free-plan-features {
+  color: var(--dl-color-gray-800);
+}
+.projects-container08 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.projects-text08 {
+  color: var(--dl-color-gray-800);
+}
+.projects-free-plan-features1 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.projects-container09 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.projects-text09 {
+  color: var(--dl-color-gray-800);
+}
+.projects-free-plan-features2 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.projects-container10 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.projects-text10 {
+  color: var(--dl-color-gray-800);
+}
+.projects-free-plan-features3 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.projects-button {
+  color: var(--dl-color-gray-black);
+  width: 100%;
+  margin-top: auto;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: 1rem;
+  border-color: var(--dl-color-primary1-blue100);
+  border-radius: 45px;
+  padding-bottom: 1rem;
+  background-color: transparent;
+}
+.projects-button:hover {
+  border-color: rgba(41, 20, 119, 0.9);
+  background-color: rgba(217, 217, 217, 0.1);
+}
+.projects-pricing-card1 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  max-width: 450px;
+  min-height: 450px;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  background-color: var(--dl-color-primary1-blue60);
+}
+.projects-container11 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.projects-text11 {
+  font-family: "Raleway";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.projects-basic-plan-description {
+  line-height: 1.6;
+}
+.projects-container12 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.projects-text12 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.projects-basic-plan-pricing {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.projects-text15 {
+  font-size: 1.15rem;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.projects-container13 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.projects-container14 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.projects-text16 {
+  color: var(--dl-color-gray-800);
+}
+.projects-text17 {
+  color: var(--dl-color-gray-800);
+}
+.projects-container15 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.projects-text18 {
+  color: var(--dl-color-gray-800);
+}
+.projects-basic-plan-features {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.projects-container16 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.projects-text19 {
+  color: var(--dl-color-gray-800);
+}
+.projects-basic-plan-features1 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.projects-container17 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.projects-text20 {
+  color: var(--dl-color-gray-800);
+}
+.projects-basic-plan-features2 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.projects-container18 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.projects-text21 {
+  color: var(--dl-color-gray-800);
+}
+.projects-basic-plan-features3 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.projects-button1 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  margin-top: auto;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: 1rem;
+  border-color: rgba(41, 20, 119, 0.9);
+  border-width: 0px;
+  border-radius: 45px;
+  padding-bottom: 1rem;
+  background-color: var(--dl-color-primary1-blue100);
+}
+.projects-button1:hover {
+  border-color: rgba(41, 20, 119, 0.9);
+  background-color: rgba(41, 20, 119, 0.9);
+}
+.projects-pricing-card2 {
+  gap: var(--dl-space-space-twounits);
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: 450px;
+  min-height: 450px;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-primary1-blue60);
+}
+.projects-container19 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.projects-text22 {
+  font-family: "Raleway";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.projects-pro-plan-description {
+  line-height: 1.6;
+}
+.projects-container20 {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.projects-text25 {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.projects-pro-plan-pricing {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.projects-text28 {
+  font-size: 1.15rem;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.projects-container21 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.projects-container22 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.projects-text29 {
+  color: var(--dl-color-gray-800);
+}
+.projects-text30 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.projects-container23 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.projects-text31 {
+  color: var(--dl-color-gray-800);
+}
+.projects-pro-plan-features {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.projects-container24 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.projects-text32 {
+  color: var(--dl-color-gray-800);
+}
+.projects-pro-plan-features1 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.projects-container25 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.projects-text33 {
+  color: var(--dl-color-gray-800);
+}
+.projects-pro-plan-features2 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.projects-button2 {
+  color: var(--dl-color-gray-white);
+  width: 100%;
+  margin-top: auto;
+  transition: 0.3s;
+  font-weight: 700;
+  padding-top: 1rem;
+  border-color: #3d6e70ff;
+  border-width: 0px;
+  border-radius: 45px;
+  padding-bottom: 1rem;
+  background-color: var(--dl-color-primary1-blue100);
+}
+.projects-button2:hover {
+  border-color: rgba(41, 20, 119, 0.9);
+  background-color: rgba(41, 20, 119, 0.9);
+}
+@media(max-width: 991px) {
+  .projects-banner-sub-heading {
+    max-width: 100%;
+  }
+  .projects-gallery-sub-heading {
+    text-align: center;
+  }
+  .projects-container01 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .projects-pricing-sub-heading {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+  .projects-container03 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .projects-pricing-card {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    max-width: 450px;
+  }
+  .projects-pricing-card1 {
+    width: 100%;
+    max-width: 450px;
+  }
+  .projects-pricing-card2 {
+    width: 100%;
+    max-width: 450px;
+  }
+}
+@media(max-width: 767px) {
+  .projects-banner1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .projects-banner-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .projects-gallery1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .projects-gallery-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .projects-container01 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .projects-pricing1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .projects-pricing-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .projects-container03 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .projects-pricing-card {
+    width: 100%;
+    max-width: 450px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .projects-pricing-card1 {
+    width: 100%;
+    max-width: 450px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .projects-pricing-card2 {
+    width: 100%;
+    max-width: 450px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .projects-banner1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .projects-gallery1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .projects-container01 {
+    grid-template-columns: 1fr;
+  }
+  .projects-pricing-card2 {
+    margin-bottom: 0px;
+  }
+}

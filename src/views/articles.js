@@ -18,6 +18,7 @@ const Articles = (props) => {
       <div className="articles-hero">
         <div className="articles-hero1">
           <NavbarInteractive rootClassName="navbar-interactive-root-class-name1"></NavbarInteractive>
+          <SmallSpacer rootClassName="small-spacer-root-class-name2"></SmallSpacer>
           <div className="articles-container1">
             <h1 className="articles-hero-heading heading1">
               SOLIDFORGE Published Content

@@ -227,6 +227,7 @@
 .navbar-interactive-root-class-name1 {
   align-self: center;
 }
+
 @media(max-width: 767px) {
   .navbar-interactive-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);

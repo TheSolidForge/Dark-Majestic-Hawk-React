@@ -29,7 +29,7 @@ const NavbarInteractive = (props) => {
             <Link to="/articles" className="navbar-interactive-nav3">
               {props.nav3}
             </Link>
-            <Link to="/contact-and-about" className="navbar-interactive-nav4">
+            <Link to="/projects" className="navbar-interactive-nav4">
               {props.nav4}
             </Link>
             <Link to="/contact-and-about" className="navbar-interactive-nav5">

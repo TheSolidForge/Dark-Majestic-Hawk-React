@@ -8,7 +8,7 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
-import Home from './views/home'
+import Projects from './views/projects'
 import TheSolidForge from './views/the-solid-forge'
 import Articles from './views/articles'
 import ContactAndAbout from './views/contact-and-about'
@@ -18,7 +18,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
-        <Route component={Home} exact path="/home" />
+        <Route component={Projects} exact path="/projects" />
         <Route component={TheSolidForge} exact path="/" />
         <Route component={Articles} exact path="/articles" />
         <Route component={ContactAndAbout} exact path="/contact-and-about" />
