@@ -10,7 +10,7 @@ import {
 import './style.css'
 import Home from './views/home'
 import TheSolidForge from './views/the-solid-forge'
-import Landing from './views/landing'
+import Articles from './views/articles'
 import ContactAndAbout from './views/contact-and-about'
 import NotFound from './views/not-found'
 
@@ -20,7 +20,7 @@ const App = () => {
       <Switch>
         <Route component={Home} exact path="/home" />
         <Route component={TheSolidForge} exact path="/" />
-        <Route component={Landing} exact path="/landing" />
+        <Route component={Articles} exact path="/articles" />
         <Route component={ContactAndAbout} exact path="/contact-and-about" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />

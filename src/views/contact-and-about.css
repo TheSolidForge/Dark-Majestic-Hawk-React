@@ -99,6 +99,8 @@
   border-radius: var(--dl-radius-radius-round);
 }
 .contact-and-about-container2 {
+  width: 411px;
+  height: 195px;
   display: flex;
   max-width: 35%;
   align-self: flex-end;
@@ -115,6 +117,7 @@
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .contact-and-about-text06 {
+  align-self: center;
   font-family: "Raleway";
   line-height: 1.6;
   margin-bottom: var(--dl-space-space-oneandhalfunits);

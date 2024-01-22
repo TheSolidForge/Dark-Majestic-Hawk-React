@@ -47,7 +47,7 @@ const ContactAndAbout = (props) => {
           <div className="contact-and-about-faq1">
             <img
               alt="image"
-              src="/orange%20calendula%20officinalis-500w.png"
+              src="/Images/orange%20calendula%20officinalis-500w.png"
               className="contact-and-about-details-image1"
             />
             <div className="contact-and-about-container2">
