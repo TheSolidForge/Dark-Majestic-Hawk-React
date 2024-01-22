@@ -121,24 +121,24 @@ const ContactAndAbout = (props) => {
             </div>
             <div className="contact-and-about-container3">
               <Question
-                Question="What is SOLIDFORGE"
-                Answer="Solidforge is a company developed to share and capitalize of the human generated knowledge gather over a decade of interacting with succesful US Domestic and International organizations"
+                answer="Solidforge is a company developed to share and capitalize of the human generated knowledge gather over a decade of interacting with succesful US Domestic and International organizations"
+                question="What is SOLIDFORGE"
               ></Question>
               <Question
-                Answer="Many projects content is professionally confidential. I am able to discuss these projects from an operational and technical perspective. Please reach out with specific questions. Common topics include: High Precision inspection with Structured Light Scanners or Coordinate Measurement Machines (CMMs) in automated production environments - Computation geometry algorithm and workflow  generation for patient specific healthcare applications concerning Dental, cosmetic and functioning fairing prosthetic, complex injection mold design, and 3D metal printed implants "
-                Question="Can you provide examples of your work in advanced manufacturing?"
+                answer="Many projects content is professionally confidential. I am able to discuss these projects from an operational and technical perspective. Please reach out with specific questions. Common topics include: High Precision inspection with Structured Light Scanners or Coordinate Measurement Machines (CMMs) in automated production environments - Computation geometry algorithm and workflow  generation for patient specific healthcare applications concerning Dental, cosmetic and functioning fairing prosthetic, complex injection mold design, and 3D metal printed implants "
+                question="Can you provide examples of your work in advanced manufacturing?"
               ></Question>
               <Question
-                Answer="Consulting Services are available on a first come first serve basis. Current contracts and projects include: - Saltwater Aquaculture for Sustainable Protein generation - Hydrogen Cell Production and Design -chemical and elemental analysis of Saltwater and Brackish Ecosystems "
-                Question="Do you offer consulting services or assistance with research projects?"
+                answer="Consulting Services are available on a first come first serve basis. Current contracts and projects include: - Saltwater Aquaculture for Sustainable Protein generation - Hydrogen Cell Production and Design -chemical and elemental analysis of Saltwater and Brackish Ecosystems "
+                question="Do you offer consulting services or assistance with research projects?"
               ></Question>
               <Question
-                Answer="Yes, our website will serve as a platform for sharing articles and papers written by our team. Contracting services are avalible for publishing case studies of industrial and theoretical processes"
-                Question="Will you be posting articles and papers on your website?"
+                answer="Yes, our website will serve as a platform for sharing articles and papers written by our team. Contracting services are avalible for publishing case studies of industrial and theoretical processes"
+                question="Will you be posting articles and papers on your website?"
               ></Question>
               <Question
-                Answer="Contact me directly at Chris@TheSolidForge.com or +1 858 630 8468"
-                Question="How can potential customers contact your company?"
+                answer="Contact me directly at Chris@TheSolidForge.com or +1 858 630 8468"
+                question="How can potential customers contact your company?"
               ></Question>
             </div>
           </div>

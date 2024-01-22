@@ -6,28 +6,22 @@
   align-items: center;
   flex-direction: column;
 }
-.articles-header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-top: var(--dl-space-space-oneandhalfunits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-  background-color: var(--dl-color-primary1-blue80);
-}
 .articles-hero {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  background-color: var(--dl-color-primary1-blue80);
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url("/Images/ucsd%20bridge1-1500w.png");
 }
 .articles-hero1 {
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
   min-height: auto;
   align-items: center;
   padding-top: var(--dl-space-space-sixunits);
@@ -103,6 +97,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #D9D9D9;
 }
 .articles-details1 {
   width: 100%;

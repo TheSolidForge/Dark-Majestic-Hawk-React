@@ -130,20 +130,20 @@ const Home = (props) => {
             </div>
             <div className="home-container04">
               <FeatureCard
-                Heading="Advanced Manufacturing"
-                SubHeading="Utilize cutting-edge technology for efficient and precise production processes."
+                heading="Advanced Manufacturing"
+                subHeading="Utilize cutting-edge technology for efficient and precise production processes."
               ></FeatureCard>
               <FeatureCard
-                Heading="3D Printing"
-                SubHeading="Create complex and customized objects with additive manufacturing techniques."
+                heading="3D Printing"
+                subHeading="Create complex and customized objects with additive manufacturing techniques."
               ></FeatureCard>
               <FeatureCard
-                Heading="3D Scanning"
-                SubHeading="Capture detailed digital representations of physical objects for various applications."
+                heading="3D Scanning"
+                subHeading="Capture detailed digital representations of physical objects for various applications."
               ></FeatureCard>
               <FeatureCard
-                Heading="Computational Geometry"
-                SubHeading="Leverage mathematical algorithms to solve geometric problems in design and manufacturing."
+                heading="Computational Geometry"
+                subHeading="Leverage mathematical algorithms to solve geometric problems in design and manufacturing."
               ></FeatureCard>
             </div>
           </div>
@@ -313,51 +313,51 @@ const Home = (props) => {
           </span>
           <div className="home-container29">
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1650611250959-1e823abf6841?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              imageSrc="https://images.unsplash.com/photo-1650611250959-1e823abf6841?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1640904422940-f3070d65ae29?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              imageSrc="https://images.unsplash.com/photo-1640904422940-f3070d65ae29?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName1"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1630926906914-f98970d8894c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              imageSrc="https://images.unsplash.com/photo-1630926906914-f98970d8894c?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName3"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1632292220916-e9c34dd75db2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              imageSrc="https://images.unsplash.com/photo-1632292220916-e9c34dd75db2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName2"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1642615835477-d303d7dc9ee9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              imageSrc="https://images.unsplash.com/photo-1642615835477-d303d7dc9ee9?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName4"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1650984186744-ade500904ff7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              imageSrc="https://images.unsplash.com/photo-1650984186744-ade500904ff7?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName5"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1648457147590-ef7dbec3cfc2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              imageSrc="https://images.unsplash.com/photo-1648457147590-ef7dbec3cfc2?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName6"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1640997261734-f68eb03f9377?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              imageSrc="https://images.unsplash.com/photo-1640997261734-f68eb03f9377?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName7"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1697707903242-dc15a6b56d45?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              imageSrc="https://images.unsplash.com/photo-1697707903242-dc15a6b56d45?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName8"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1663612864491-671a0672cc72?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              imageSrc="https://images.unsplash.com/photo-1663612864491-671a0672cc72?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName9"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1678986718987-76f0b9357e0f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              imageSrc="https://images.unsplash.com/photo-1678986718987-76f0b9357e0f?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName10"
             ></GalleryCard3>
             <GalleryCard3
-              image_src="https://images.unsplash.com/photo-1664363243687-8d68b7d54283?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+              imageSrc="https://images.unsplash.com/photo-1664363243687-8d68b7d54283?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwMjQ3MjI5N3w&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
               rootClassName="rootClassName11"
             ></GalleryCard3>
           </div>
@@ -461,24 +461,24 @@ const Home = (props) => {
             </div>
             <div className="home-container31">
               <Question
-                Answer="Our company specializes in advanced manufacturing, including 3D printing, 3D scanning, computational geometry, and high precision inspection."
-                Question="What services does your company offer?"
+                answer="Our company specializes in advanced manufacturing, including 3D printing, 3D scanning, computational geometry, and high precision inspection."
+                question="What services does your company offer?"
               ></Question>
               <Question
-                Answer="Yes, we have successfully completed numerous projects in advanced manufacturing. Please visit our website to view case studies and examples of our work."
-                Question="Can you provide examples of your work in advanced manufacturing?"
+                answer="Yes, we have successfully completed numerous projects in advanced manufacturing. Please visit our website to view case studies and examples of our work."
+                question="Can you provide examples of your work in advanced manufacturing?"
               ></Question>
               <Question
-                Answer="Absolutely! We provide consulting services and can assist with research projects related to advanced manufacturing. Feel free to contact us for more information."
-                Question="Do you offer consulting services or assistance with research projects?"
+                answer="Absolutely! We provide consulting services and can assist with research projects related to advanced manufacturing. Feel free to contact us for more information."
+                question="Do you offer consulting services or assistance with research projects?"
               ></Question>
               <Question
-                Answer="Yes, our website will serve as a platform for sharing articles and papers written by our team. You can find valuable insights and knowledge related to advanced manufacturing on our site."
-                Question="Will you be posting articles and papers on your website?"
+                answer="Yes, our website will serve as a platform for sharing articles and papers written by our team. You can find valuable insights and knowledge related to advanced manufacturing on our site."
+                question="Will you be posting articles and papers on your website?"
               ></Question>
               <Question
-                Answer="To get in touch with us, please visit our website and navigate to the contact page. You will find various contact methods, including phone, email, and a contact form."
-                Question="How can potential customers contact your company?"
+                answer="To get in touch with us, please visit our website and navigate to the contact page. You will find various contact methods, including phone, email, and a contact form."
+                question="How can potential customers contact your company?"
               ></Question>
             </div>
           </div>

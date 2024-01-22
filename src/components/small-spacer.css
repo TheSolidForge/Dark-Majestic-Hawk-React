@@ -1,0 +1,9 @@
+.small-spacer-container {
+  width: 100%;
+  height: var(--dl-size-size-small);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
