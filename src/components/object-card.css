@@ -1,0 +1,161 @@
+.object-card-pricing-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  max-width: 100%;
+  align-self: center;
+  min-height: auto;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-twounits);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: center;
+  background-color: var(--dl-color-primary1-blue60);
+}
+.object-card-container {
+  width: 145px;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.object-card-text {
+  font-size: 1.15rem;
+  margin-top: var(--dl-space-space-twounits);
+  font-weight: 300;
+}
+.object-card-free-plan-price {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.object-card-container1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.object-card-text3 {
+  font-family: "Raleway";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.object-card-free-plan-description {
+  line-height: 1.6;
+}
+.object-card-container2 {
+  width: auto;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.object-card-container3 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.object-card-text4 {
+  color: var(--dl-color-gray-800);
+}
+.object-card-free-plan-features {
+  color: var(--dl-color-gray-800);
+}
+.object-card-container4 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.object-card-text5 {
+  color: var(--dl-color-gray-800);
+}
+.object-card-free-plan-features1 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.object-card-container5 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.object-card-text6 {
+  color: var(--dl-color-gray-800);
+}
+.object-card-free-plan-features2 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.object-card-container6 {
+  gap: 4px;
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: row;
+}
+.object-card-text7 {
+  color: var(--dl-color-gray-800);
+}
+.object-card-free-plan-features3 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.object-card-button {
+  color: var(--dl-color-gray-black);
+  right: 70px;
+  width: 212px;
+  bottom: 0px;
+  margin: var(--dl-space-space-unit);
+  padding: var(--dl-space-space-unit);
+  position: absolute;
+  align-self: stretch;
+  transition: 0.3s;
+  font-weight: 700;
+  border-color: var(--dl-color-primary1-blue100);
+  border-radius: 45px;
+  background-color: transparent;
+}
+.object-card-button:hover {
+  border-color: rgba(41, 20, 119, 0.9);
+  background-color: rgba(217, 217, 217, 0.1);
+}
+@media(max-width: 991px) {
+  .object-card-pricing-card {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    max-width: 450px;
+  }
+}
+@media(max-width: 767px) {
+  .object-card-pricing-card {
+    width: 100%;
+    max-width: 450px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+}
