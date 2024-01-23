@@ -13,7 +13,6 @@
   padding-top: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
-  background-color: var(--dl-color-primary1-blue80);
 }
 .profile-and-resume-banner {
   flex: 0 0 auto;
@@ -27,14 +26,17 @@
 .profile-and-resume-banner1 {
   gap: var(--dl-space-space-oneandhalfunits);
   width: var(--dl-size-size-maxwidth);
+  height: 734px;
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-sixunits);
   padding-left: var(--dl-space-space-fiveunits);
   padding-right: var(--dl-space-space-fiveunits);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-sixunits);
+  padding-bottom: 325px;
+  background-size: cover;
   justify-content: flex-start;
+  background-image: url("/Images/ucsd%20spirit%20gate-1400w.png");
 }
 .profile-and-resume-banner-heading {
   color: var(--dl-color-gray-white);
@@ -45,20 +47,24 @@
 .profile-and-resume-banner-sub-heading {
   color: var(--dl-color-gray-white);
   max-width: var(--dl-size-size-maxwidth);
+  margin-top: var(--dl-space-space-twounits);
   text-align: center;
   line-height: 1.6;
+  margin-bottom: var(--dl-space-space-twounits);
 }
 .profile-and-resume-banner-button {
-  color: var(--dl-color-gray-white);
+  color: var(--dl-color-gray-black);
+  margin-top: var(--dl-space-space-sixunits);
   transition: 0.3s;
   font-weight: 700;
   padding-top: 1.5rem;
   border-width: 0px;
   padding-left: 3rem;
   border-radius: 45px;
+  margin-bottom: var(--dl-space-space-twounits);
   padding-right: 3rem;
   padding-bottom: 1.5rem;
-  background-color: var(--dl-color-primary1-blue100);
+  background-color: var(--dl-color-gray-white);
 }
 .profile-and-resume-banner-button:hover {
   border-color: rgba(41, 20, 119, 0.9);
