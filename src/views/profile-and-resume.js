@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -40,8 +41,8 @@ const ProfileAndResume = (props) => {
               />
               <div className="profile-and-resume-feature-card">
                 <img
-                  src="/Stock/nc%20state%20logo-1500w.png"
                   alt="image"
+                  src="/Stock/nc%20state%20logo-1500w.png"
                   className="profile-and-resume-image1"
                 />
                 <div className="profile-and-resume-container03">
@@ -117,13 +118,16 @@ const ProfileAndResume = (props) => {
               research content. 
             </span>
           </span>
-          <button className="profile-and-resume-banner-button button">
+          <Link
+            to="/services"
+            className="profile-and-resume-banner-button button"
+          >
             Future Opportunities -&gt;
-          </button>
+          </Link>
           <div className="profile-and-resume-feature-card1">
             <img
-              src="/Brand/gimp-%20solidforge%20business%20card%20back-1400w.jpg"
               alt="image"
+              src="/Brand/gimp-%20solidforge%20business%20card%20back-1400w.jpg"
               className="profile-and-resume-image2"
             />
             <div className="profile-and-resume-container04">

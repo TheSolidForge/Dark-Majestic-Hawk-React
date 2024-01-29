@@ -80,20 +80,20 @@ const Articles = (props) => {
                 </div>
                 <div className="articles-container4">
                   <FeatureCard
-                    Heading="Advanced Manufacturing"
-                    SubHeading="Utilize cutting-edge technology for efficient and precise production processes."
+                    heading="Advanced Manufacturing"
+                    subHeading="Utilize cutting-edge technology for efficient and precise production processes."
                   ></FeatureCard>
                   <FeatureCard
-                    Heading="3D Printing"
-                    SubHeading="Create complex and customized objects with additive manufacturing techniques."
+                    heading="3D Printing"
+                    subHeading="Create complex and customized objects with additive manufacturing techniques."
                   ></FeatureCard>
                   <FeatureCard
-                    Heading="3D Scanning"
-                    SubHeading="Capture detailed digital representations of physical objects for various applications."
+                    heading="3D Scanning"
+                    subHeading="Capture detailed digital representations of physical objects for various applications."
                   ></FeatureCard>
                   <FeatureCard
-                    Heading="Computational Geometry"
-                    SubHeading="Leverage mathematical algorithms to solve geometric problems in design and manufacturing."
+                    heading="Computational Geometry"
+                    subHeading="Leverage mathematical algorithms to solve geometric problems in design and manufacturing."
                   ></FeatureCard>
                 </div>
               </div>

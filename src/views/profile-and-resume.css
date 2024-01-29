@@ -168,6 +168,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   padding-right: 3rem;
   padding-bottom: 1.5rem;
+  text-decoration: none;
   background-color: var(--dl-color-gray-white);
 }
 .profile-and-resume-banner-button:hover {

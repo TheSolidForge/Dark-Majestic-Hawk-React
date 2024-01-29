@@ -9,13 +9,13 @@ const Footer = (props) => {
     <div className={`footer-footer ${props.rootClassName} `}>
       <footer className="footer-footer1">
         <div className="footer-container">
-          <span className="footer-logo">{props.Logo}</span>
+          <span className="footer-logo">{props.logo}</span>
           <nav className="footer-nav">
-            <span className="footer-nav1">{props.Nav1}</span>
-            <span className="footer-nav2">{props.Nav2}</span>
-            <span className="footer-nav3">{props.Nav3}</span>
-            <span className="footer-nav4">{props.Nav4}</span>
-            <span className="footer-nav5">{props.Nav5}</span>
+            <span className="footer-nav1">{props.nav1}</span>
+            <span className="footer-nav2">{props.nav2}</span>
+            <span className="footer-nav3">{props.nav3}</span>
+            <span className="footer-nav4">{props.nav4}</span>
+            <span className="footer-nav5">{props.nav5}</span>
           </nav>
         </div>
         <div className="footer-separator"></div>
@@ -48,24 +48,24 @@ const Footer = (props) => {
 }
 
 Footer.defaultProps = {
-  Nav3: 'Articles',
-  Logo: 'The Solid Forge',
-  Nav4: 'Projects',
+  nav3: 'Articles',
+  logo: 'The Solid Forge',
+  nav4: 'Projects',
   text: '© 2024 SOLIDFORGE, All Rights Reserved.',
-  Nav1: 'About',
-  Nav2: 'Services',
-  Nav5: 'Contact',
+  nav1: 'About',
+  nav2: 'Services',
+  nav5: 'Contact',
   rootClassName: '',
 }
 
 Footer.propTypes = {
-  Nav3: PropTypes.string,
-  Logo: PropTypes.string,
-  Nav4: PropTypes.string,
+  nav3: PropTypes.string,
+  logo: PropTypes.string,
+  nav4: PropTypes.string,
   text: PropTypes.string,
-  Nav1: PropTypes.string,
-  Nav2: PropTypes.string,
-  Nav5: PropTypes.string,
+  nav1: PropTypes.string,
+  nav2: PropTypes.string,
+  nav5: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 
