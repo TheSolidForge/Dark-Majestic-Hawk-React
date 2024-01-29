@@ -3,6 +3,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import NavbarInteractive from '../components/navbar-interactive'
+import SmallSpacer from '../components/small-spacer'
 import GalleryCard3 from '../components/gallery-card3'
 import Footer from '../components/footer'
 import './projects.css'
@@ -17,6 +18,9 @@ const Projects = (props) => {
       <div className="projects-header">
         <NavbarInteractive rootClassName="navbar-interactive-root-class-name2"></NavbarInteractive>
       </div>
+      <SmallSpacer rootClassName="small-spacer-root-class-name5"></SmallSpacer>
+      <span className="projects-text">Under Construction </span>
+      <SmallSpacer rootClassName="small-spacer-root-class-name6"></SmallSpacer>
       <div className="projects-banner">
         <div className="projects-banner1">
           <h1 className="projects-banner-heading heading2">
@@ -92,7 +96,7 @@ const Projects = (props) => {
       <div className="projects-pricing">
         <div className="projects-pricing1">
           <div className="projects-container02">
-            <span className="projects-text sectionTitle">
+            <span className="projects-text01 sectionTitle">
               <span>Pricing</span>
               <br></br>
             </span>
@@ -107,13 +111,13 @@ const Projects = (props) => {
           <div className="projects-container03">
             <div className="projects-pricing-card">
               <div className="projects-container04">
-                <span className="projects-text03 heading3">Free</span>
+                <span className="projects-text04 heading3">Free</span>
                 <span className="projects-free-plan-description">
                   A basic plan for personal use
                 </span>
               </div>
               <div className="projects-container05">
-                <span className="projects-text04">
+                <span className="projects-text05">
                   <span>$</span>
                   <span></span>
                 </span>
@@ -121,25 +125,25 @@ const Projects = (props) => {
               </div>
               <div className="projects-container06">
                 <div className="projects-container07">
-                  <span className="projects-text07">✔</span>
+                  <span className="projects-text08">✔</span>
                   <span className="projects-free-plan-features">
                     Access to website builder
                   </span>
                 </div>
                 <div className="projects-container08">
-                  <span className="projects-text08">✔</span>
+                  <span className="projects-text09">✔</span>
                   <span className="projects-free-plan-features1">
                     Limited storage space
                   </span>
                 </div>
                 <div className="projects-container09">
-                  <span className="projects-text09">✔</span>
+                  <span className="projects-text10">✔</span>
                   <span className="projects-free-plan-features2">
                     Basic customer support
                   </span>
                 </div>
                 <div className="projects-container10">
-                  <span className="projects-text10">✔</span>
+                  <span className="projects-text11">✔</span>
                   <span className="projects-free-plan-features3">
                     Free Plan Feature
                   </span>
@@ -151,46 +155,46 @@ const Projects = (props) => {
             </div>
             <div className="projects-pricing-card1">
               <div className="projects-container11">
-                <span className="projects-text11 heading3">BASIC</span>
+                <span className="projects-text12 heading3">BASIC</span>
                 <span className="projects-basic-plan-description">
                   An affordable plan for small businesses
                 </span>
               </div>
               <div className="projects-container12">
-                <span className="projects-text12">
+                <span className="projects-text13">
                   <span>$</span>
                   <span></span>
                 </span>
                 <span className="projects-basic-plan-pricing">10</span>
-                <span className="projects-text15">/ month</span>
+                <span className="projects-text16">/ month</span>
               </div>
               <div className="projects-container13">
                 <div className="projects-container14">
-                  <span className="projects-text16">✔</span>
-                  <span className="projects-text17">
+                  <span className="projects-text17">✔</span>
+                  <span className="projects-text18">
                     All features of FREE plan
                   </span>
                 </div>
                 <div className="projects-container15">
-                  <span className="projects-text18">✔</span>
+                  <span className="projects-text19">✔</span>
                   <span className="projects-basic-plan-features">
                     Access to website builder
                   </span>
                 </div>
                 <div className="projects-container16">
-                  <span className="projects-text19">✔</span>
+                  <span className="projects-text20">✔</span>
                   <span className="projects-basic-plan-features1">
                     Increased storage space
                   </span>
                 </div>
                 <div className="projects-container17">
-                  <span className="projects-text20">✔</span>
+                  <span className="projects-text21">✔</span>
                   <span className="projects-basic-plan-features2">
                     Priority customer support
                   </span>
                 </div>
                 <div className="projects-container18">
-                  <span className="projects-text21">✔</span>
+                  <span className="projects-text22">✔</span>
                   <span className="projects-basic-plan-features3">
                     Basic Plan Feature
                   </span>
@@ -202,7 +206,7 @@ const Projects = (props) => {
             </div>
             <div className="projects-pricing-card2">
               <div className="projects-container19">
-                <span className="projects-text22 heading3">
+                <span className="projects-text23 heading3">
                   <span>PRO</span>
                   <br></br>
                 </span>
@@ -211,34 +215,34 @@ const Projects = (props) => {
                 </span>
               </div>
               <div className="projects-container20">
-                <span className="projects-text25">
+                <span className="projects-text26">
                   <span>$</span>
                   <span></span>
                 </span>
                 <span className="projects-pro-plan-pricing">25</span>
-                <span className="projects-text28">/ month</span>
+                <span className="projects-text29">/ month</span>
               </div>
               <div className="projects-container21">
                 <div className="projects-container22">
-                  <span className="projects-text29">✔</span>
-                  <span className="projects-text30">
+                  <span className="projects-text30">✔</span>
+                  <span className="projects-text31">
                      All features of BASIC plan
                   </span>
                 </div>
                 <div className="projects-container23">
-                  <span className="projects-text31">✔</span>
+                  <span className="projects-text32">✔</span>
                   <span className="projects-pro-plan-features">
                     Access to website builder
                   </span>
                 </div>
                 <div className="projects-container24">
-                  <span className="projects-text32">✔</span>
+                  <span className="projects-text33">✔</span>
                   <span className="projects-pro-plan-features1">
                     Unlimited storage space
                   </span>
                 </div>
                 <div className="projects-container25">
-                  <span className="projects-text33">✔</span>
+                  <span className="projects-text34">✔</span>
                   <span className="projects-pro-plan-features2">
                     Dedicated customer support
                   </span>

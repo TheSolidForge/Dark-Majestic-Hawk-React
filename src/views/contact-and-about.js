@@ -18,13 +18,65 @@ const ContactAndAbout = (props) => {
         />
       </Helmet>
       <NavbarInteractive rootClassName="navbar-interactive-root-class-name"></NavbarInteractive>
+      <div className="contact-and-about-banner">
+        <span className="contact-and-about-text">How to Contact:</span>
+        <span className="contact-and-about-text01">
+          <span>
+            <span>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+              volutpat turpis.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+          </span>
+          <span>
+            <span>
+              Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <span>
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+          </span>
+        </span>
+        <div className="contact-and-about-container1">
+          <button className="contact-and-about-button button">
+            <span className="contact-and-about-text08">
+              <span>Email:</span>
+              <br></br>
+              <span>Chris@TheSolidForge.com</span>
+            </span>
+          </button>
+          <button className="contact-and-about-button1 button">
+            <span className="contact-and-about-text12">
+              <span>Phone:</span>
+              <br></br>
+              <span>+1 858 630 8468</span>
+            </span>
+          </button>
+        </div>
+      </div>
       <div className="contact-and-about-details">
         <div className="contact-and-about-details1">
-          <div className="contact-and-about-container1">
-            <span className="contact-and-about-text sectionTitle">
-              <span>Details</span>
-              <br></br>
-            </span>
+          <div className="contact-and-about-container2">
             <h2 className="contact-and-about-details-heading heading2">
               Unleash Your Potential with Cutting-Edge Technology
             </h2>
@@ -45,81 +97,17 @@ const ContactAndAbout = (props) => {
       <div className="contact-and-about-faq">
         <div className="contact-and-about-faq-container">
           <div className="contact-and-about-faq1">
-            <img
-              alt="image"
-              src="/Images/orange%20calendula%20officinalis-500w.png"
-              className="contact-and-about-details-image1"
-            />
-            <div className="contact-and-about-container2">
-              <span className="contact-and-about-text03 sectionTitle">
-                <span>FAQ</span>
-                <br></br>
-              </span>
-              <h2 className="contact-and-about-text06 heading2">
+            <div className="contact-and-about-container3">
+              <h2 className="contact-and-about-text16 heading2">
                 Career Experience
               </h2>
-              <span className="contact-and-about-text07">
-                <span>Feeding my Curiosity</span>
-                <br></br>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
+              <img
+                alt="image"
+                src="/Images/orange%20calendula%20officinalis-400w.png"
+                className="contact-and-about-details-image1"
+              />
             </div>
-            <div className="contact-and-about-container3">
+            <div className="contact-and-about-container4">
               <Question
                 answer="Solidforge is a company developed to share and capitalize of the human generated knowledge gather over a decade of interacting with succesful US Domestic and International organizations"
                 question="What is SOLIDFORGE?"

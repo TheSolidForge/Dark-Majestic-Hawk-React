@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -21,7 +22,12 @@ const Articles = (props) => {
           <SmallSpacer rootClassName="small-spacer-root-class-name2"></SmallSpacer>
           <div className="articles-container1">
             <h1 className="articles-hero-heading heading1">
-              SOLIDFORGE Published Content
+              <span className="articles-text">
+                SOLIDFORGE Published Content
+              </span>
+              <br></br>
+              <span>Coming Soon</span>
+              <br></br>
             </h1>
             <span className="articles-hero-sub-heading">
               Advanced Manufacturing, 3D Printing, and More
@@ -30,16 +36,19 @@ const Articles = (props) => {
               <button className="articles-hero-button1 button">
                 Get Started
               </button>
-              <button className="articles-hero-button2 button">
+              <Link
+                to="/contact-and-about"
+                className="articles-hero-button2 button"
+              >
                 Learn More →
-              </button>
+              </Link>
             </div>
           </div>
           <SmallSpacer rootClassName="small-spacer-root-class-name1"></SmallSpacer>
           <div className="articles-details">
             <div className="articles-details1">
               <div className="articles-container2">
-                <span className="articles-text sectionTitle">
+                <span className="articles-text04 sectionTitle">
                   <span>Details</span>
                   <br></br>
                 </span>
@@ -66,7 +75,7 @@ const Articles = (props) => {
             <div className="articles-features-container">
               <div className="articles-features1">
                 <div className="articles-container3">
-                  <span className="articles-text3 sectionTitle">
+                  <span className="articles-text07 sectionTitle">
                     <span>features</span>
                     <br></br>
                   </span>
