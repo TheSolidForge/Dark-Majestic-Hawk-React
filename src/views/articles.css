@@ -11,9 +11,10 @@
   width: 100%;
   height: auto;
   display: flex;
+  padding: -50px;
   align-items: center;
   flex-direction: column;
-  background-size: cover;
+  background-size: auto;
   justify-content: flex-start;
   background-image: url("/Images/ucsd%20bridge1-1500w.png");
 }
@@ -69,27 +70,13 @@
   border-radius: 45px;
   padding-right: 3rem;
   padding-bottom: 1.5rem;
-  background-color: var(--dl-color-primary1-blue100);
+  text-decoration: none;
+  background-color: #000000;
 }
 .articles-hero-button1:hover {
   color: var(--dl-color-gray-white);
   border-color: rgba(41, 20, 119, 0.9);
   background-color: rgba(41, 20, 119, 0.9);
-}
-.articles-hero-button2 {
-  color: var(--dl-color-gray-white);
-  transition: 0.3s;
-  font-weight: bold;
-  padding-top: var(--dl-space-space-unit);
-  border-color: transparent;
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-unit);
-  text-decoration: none;
-  background-color: transparent;
-}
-.articles-hero-button2:hover {
-  border-color: var(--dl-color-gray-white);
 }
 .articles-details {
   flex: 0 0 auto;
@@ -303,10 +290,6 @@
   }
   .articles-btn-group {
     flex-direction: column;
-  }
-  .articles-hero-button2 {
-    margin-top: var(--dl-space-space-unit);
-    margin-left: 0px;
   }
   .articles-features1 {
     padding-top: var(--dl-space-space-twounits);

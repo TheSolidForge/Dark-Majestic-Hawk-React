@@ -16,9 +16,9 @@ const Articles = (props) => {
         <title>Articles - Dark Majestic Hawk</title>
         <meta property="og:title" content="Articles - Dark Majestic Hawk" />
       </Helmet>
+      <NavbarInteractive rootClassName="navbar-interactive-root-class-name1"></NavbarInteractive>
       <div className="articles-hero">
         <div className="articles-hero1">
-          <NavbarInteractive rootClassName="navbar-interactive-root-class-name1"></NavbarInteractive>
           <SmallSpacer rootClassName="small-spacer-root-class-name2"></SmallSpacer>
           <div className="articles-container1">
             <h1 className="articles-hero-heading heading1">
@@ -33,14 +33,11 @@ const Articles = (props) => {
               Advanced Manufacturing, 3D Printing, and More
             </span>
             <div className="articles-btn-group">
-              <button className="articles-hero-button1 button">
-                Get Started
-              </button>
               <Link
                 to="/contact-and-about"
-                className="articles-hero-button2 button"
+                className="articles-hero-button1 button"
               >
-                Learn More →
+                Get Started
               </Link>
             </div>
           </div>
