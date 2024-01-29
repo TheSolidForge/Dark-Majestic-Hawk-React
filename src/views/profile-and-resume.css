@@ -193,6 +193,7 @@
   object-fit: cover;
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
+  border-radius: 5%;
   margin-bottom: 0px;
 }
 .profile-and-resume-container04 {
@@ -239,6 +240,7 @@
   height: 373px;
   align-self: center;
   object-fit: cover;
+  border-radius: 25px;
 }
 .profile-and-resume-container06 {
   flex: 1;

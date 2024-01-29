@@ -233,7 +233,7 @@ const ProfileAndResume = (props) => {
                 </span>
                 <span className="profile-and-resume-text054">Read More</span>
               </div>
-              <h2 className="profile-and-resume-text055">
+              <h3 className="profile-and-resume-text055">
                 <span>July 2022 - July 2023:</span>
                 <span className="profile-and-resume-text057">
                   <span
@@ -247,7 +247,7 @@ const ProfileAndResume = (props) => {
                   Employment contract suspended by Layoff
                 </span>
                 <span> </span>
-              </h2>
+              </h3>
             </div>
           </div>
         </div>
@@ -282,7 +282,7 @@ const ProfileAndResume = (props) => {
                 </span>
                 <span className="profile-and-resume-text068">Read More</span>
               </div>
-              <h2 className="profile-and-resume-text069">
+              <h3 className="profile-and-resume-text069">
                 <span>Oct 2021 - Jan 2022:</span>
                 <span className="profile-and-resume-text071">
                   <span
@@ -295,7 +295,7 @@ const ProfileAndResume = (props) => {
                 <span className="profile-and-resume-text073">
                   Employment contract suspended by Layoff 
                 </span>
-              </h2>
+              </h3>
             </div>
           </div>
         </div>
@@ -347,13 +347,13 @@ const ProfileAndResume = (props) => {
                 </span>
                 <span className="profile-and-resume-text086">Read More</span>
               </div>
-              <h2 className="profile-and-resume-text087">
+              <h3 className="profile-and-resume-text087">
                 <span>Mar 2022 - Oct 2023</span>
                 <br className="profile-and-resume-text089"></br>
                 <span className="profile-and-resume-text090">
-                  Employment contract suspended mutual aggrement
+                  Employment contract suspended by mutual agrement
                 </span>
-              </h2>
+              </h3>
             </div>
           </div>
         </div>
@@ -393,13 +393,13 @@ const ProfileAndResume = (props) => {
                 </span>
                 <span className="profile-and-resume-text103">Read More</span>
               </div>
-              <h2 className="profile-and-resume-text104">
+              <h3 className="profile-and-resume-text104">
                 <span>April 2014 - Aug 2020</span>
                 <br></br>
                 <span className="profile-and-resume-text107">
                   Employment contract suspended by Layoff 
                 </span>
-              </h2>
+              </h3>
             </div>
           </div>
         </div>
@@ -428,9 +428,18 @@ const ProfileAndResume = (props) => {
                 </span>
                 <span className="profile-and-resume-text111">Read More</span>
               </div>
-              <h2 className="profile-and-resume-text112">
-                References: Steve, Founder and CEO
-              </h2>
+              <h3 className="profile-and-resume-text112">
+                <span>
+                  2010 -2014
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
+                <br></br>
+                <span>Concurrent College Employment </span>
+              </h3>
             </div>
           </div>
         </div>
