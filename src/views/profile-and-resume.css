@@ -588,11 +588,15 @@
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
   flex-direction: row;
   justify-content: center;
 }
 .profile-and-resume-image8 {
-  width: 500px;
+  width: auto;
+  height: auto;
+  margin: var(--dl-space-space-unit);
+  align-self: center;
   object-fit: cover;
 }
 .profile-and-resume-container21 {

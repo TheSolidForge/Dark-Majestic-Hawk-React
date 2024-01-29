@@ -195,7 +195,7 @@ const ProfileAndResume = (props) => {
                 Nordson Asymtech, Nordson Pacific Inc 
               </span>
               <h1 className="profile-and-resume-text040">
-                Real Time Machine Control Product Ownership
+                Real Time Machine Control and Product Ownership
               </h1>
               <div className="profile-and-resume-container10">
                 <span className="profile-and-resume-text041">
@@ -311,7 +311,7 @@ const ProfileAndResume = (props) => {
                 kellermeyer bergensons services
               </span>
               <h1 className="profile-and-resume-text075">
-                Analytic IT and Product Management 
+                Analytic reporting of large Data and Product Management 
               </h1>
               <div className="profile-and-resume-container16">
                 <span className="profile-and-resume-text076">
@@ -407,7 +407,7 @@ const ProfileAndResume = (props) => {
           <div className="profile-and-resume-blog-post-card5">
             <img
               alt="image"
-              src="https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHdvcmtpbmclMjBkZXNrfGVufDB8fHx8MTYyNjI1MDYwMg&amp;ixlib=rb-1.2.1&amp;h=1200"
+              src="/3rd Part Company Logos/turbineblades-1400w.jpg"
               className="profile-and-resume-image8"
             />
             <div className="profile-and-resume-container21">
