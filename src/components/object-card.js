@@ -13,38 +13,38 @@ const ObjectCard = (props) => {
           <span></span>
         </span>
         <span className="object-card-free-plan-price">
-          {props.freePlanPrice}
+          {props.FreePlanPrice}
         </span>
       </div>
       <div className="object-card-container1">
         <span className="object-card-text3 heading3">{props.text}</span>
         <span className="object-card-free-plan-description">
-          {props.freePlanDescription}
+          {props.FreePlanDescription}
         </span>
       </div>
       <div className="object-card-container2">
         <div className="object-card-container3">
           <span className="object-card-text4">{props.text1}</span>
           <span className="object-card-free-plan-features">
-            {props.freePlanFeatures}
+            {props.FreePlanFeatures}
           </span>
         </div>
         <div className="object-card-container4">
           <span className="object-card-text5">{props.text2}</span>
           <span className="object-card-free-plan-features1">
-            {props.freePlanFeatures1}
+            {props.FreePlanFeatures1}
           </span>
         </div>
         <div className="object-card-container5">
           <span className="object-card-text6">{props.text3}</span>
           <span className="object-card-free-plan-features2">
-            {props.freePlanFeatures2}
+            {props.FreePlanFeatures2}
           </span>
         </div>
         <div className="object-card-container6">
           <span className="object-card-text7">{props.text4}</span>
           <span className="object-card-free-plan-features3">
-            {props.freePlanFeatures3}
+            {props.FreePlanFeatures3}
           </span>
         </div>
       </div>
@@ -54,33 +54,33 @@ const ObjectCard = (props) => {
 }
 
 ObjectCard.defaultProps = {
-  button: 'Continue with Free',
-  text: 'Free',
-  freePlanDescription: 'A basic plan for personal use',
-  freePlanPrice: '0',
-  text1: '✔',
-  freePlanFeatures: 'Access to website builder',
+  FreePlanFeatures1: 'Limited storage space',
   text2: '✔',
-  freePlanFeatures1: 'Limited storage space',
-  text3: '✔',
-  freePlanFeatures2: 'Basic customer support',
   text4: '✔',
-  freePlanFeatures3: 'Free Plan Feature',
+  FreePlanFeatures: 'Access to website builder',
+  FreePlanDescription: 'A basic plan for personal use',
+  button: 'Continue with Free',
+  FreePlanPrice: '0',
+  text3: '✔',
+  text1: '✔',
+  FreePlanFeatures3: 'Free Plan Feature',
+  text: 'Free',
+  FreePlanFeatures2: 'Basic customer support',
 }
 
 ObjectCard.propTypes = {
-  button: PropTypes.string,
-  text: PropTypes.string,
-  freePlanDescription: PropTypes.string,
-  freePlanPrice: PropTypes.string,
-  text1: PropTypes.string,
-  freePlanFeatures: PropTypes.string,
+  FreePlanFeatures1: PropTypes.string,
   text2: PropTypes.string,
-  freePlanFeatures1: PropTypes.string,
-  text3: PropTypes.string,
-  freePlanFeatures2: PropTypes.string,
   text4: PropTypes.string,
-  freePlanFeatures3: PropTypes.string,
+  FreePlanFeatures: PropTypes.string,
+  FreePlanDescription: PropTypes.string,
+  button: PropTypes.string,
+  FreePlanPrice: PropTypes.string,
+  text3: PropTypes.string,
+  text1: PropTypes.string,
+  FreePlanFeatures3: PropTypes.string,
+  text: PropTypes.string,
+  FreePlanFeatures2: PropTypes.string,
 }
 
 export default ObjectCard
