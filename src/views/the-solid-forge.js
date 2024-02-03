@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -15,11 +16,21 @@ const TheSolidForge = (props) => {
       <div className="the-solid-forge-container1">
         <span className="the-solid-forge-logo">The Solid Forge</span>
         <nav className="the-solid-forge-nav">
-          <span className="the-solid-forge-nav1">About</span>
-          <span className="the-solid-forge-nav2">Services</span>
-          <span className="the-solid-forge-nav3">Articles</span>
-          <span className="the-solid-forge-nav4">Projects</span>
-          <span className="the-solid-forge-nav5">Contact</span>
+          <Link to="/contact-and-about" className="the-solid-forge-nav1">
+            About
+          </Link>
+          <Link to="/services" className="the-solid-forge-nav2">
+            Services
+          </Link>
+          <Link to="/projects" className="the-solid-forge-nav3">
+            Articles
+          </Link>
+          <Link to="/projects" className="the-solid-forge-nav4">
+            Projects
+          </Link>
+          <Link to="/contact-and-about" className="the-solid-forge-nav5">
+            Contact
+          </Link>
         </nav>
       </div>
       <img

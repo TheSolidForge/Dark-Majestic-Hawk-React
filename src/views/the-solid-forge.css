@@ -33,22 +33,27 @@
 .the-solid-forge-nav1 {
   color: var(--dl-color-secondary-gray500);
   margin-left: 0px;
+  text-decoration: none;
 }
 .the-solid-forge-nav2 {
   color: var(--dl-color-secondary-gray500);
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .the-solid-forge-nav3 {
   color: var(--dl-color-secondary-gray500);
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .the-solid-forge-nav4 {
   color: var(--dl-color-secondary-gray500);
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .the-solid-forge-nav5 {
   color: var(--dl-color-secondary-gray500);
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .the-solid-forge-image {
   width: 100%;

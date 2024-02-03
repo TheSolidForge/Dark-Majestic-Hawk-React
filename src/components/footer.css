@@ -43,22 +43,27 @@
 .footer-nav1 {
   color: var(--dl-color-secondary-gray500);
   margin-left: 0px;
+  text-decoration: none;
 }
 .footer-nav2 {
   color: var(--dl-color-secondary-gray500);
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .footer-nav3 {
   color: var(--dl-color-secondary-gray500);
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .footer-nav4 {
   color: var(--dl-color-secondary-gray500);
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .footer-nav5 {
   color: var(--dl-color-secondary-gray500);
   margin-left: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .footer-separator {
   flex: 0 0 auto;

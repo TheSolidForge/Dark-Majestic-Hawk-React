@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -11,11 +12,21 @@ const Footer = (props) => {
         <div className="footer-container">
           <span className="footer-logo">{props.logo}</span>
           <nav className="footer-nav">
-            <span className="footer-nav1">{props.nav1}</span>
-            <span className="footer-nav2">{props.nav2}</span>
-            <span className="footer-nav3">{props.nav3}</span>
-            <span className="footer-nav4">{props.nav4}</span>
-            <span className="footer-nav5">{props.nav5}</span>
+            <Link to="/contact-and-about" className="footer-nav1">
+              {props.nav1}
+            </Link>
+            <Link to="/services" className="footer-nav2">
+              {props.nav2}
+            </Link>
+            <Link to="/projects" className="footer-nav3">
+              {props.nav3}
+            </Link>
+            <Link to="/projects" className="footer-nav4">
+              {props.nav4}
+            </Link>
+            <Link to="/contact-and-about" className="footer-nav5">
+              {props.nav5}
+            </Link>
           </nav>
         </div>
         <div className="footer-separator"></div>
