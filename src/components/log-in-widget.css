@@ -1,0 +1,25 @@
+.log-in-widget-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.log-in-widget-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.log-in-widget-image {
+  width: 350px;
+  padding: var(--dl-space-space-twounits);
+  object-fit: cover;
+}
+.log-in-widget-root-class-name {
+  width: auto;
+  height: auto;
+}

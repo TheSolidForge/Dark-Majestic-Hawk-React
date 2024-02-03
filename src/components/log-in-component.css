@@ -1,0 +1,27 @@
+.log-in-component-container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.log-in-component-text {
+  padding: var(--dl-space-space-twounits);
+}
+.log-in-component-container1 {
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.log-in-component-textinput {
+  margin: var(--dl-space-space-unit);
+}
+.log-in-component-textinput1 {
+  margin: var(--dl-space-space-unit);
+}
+.log-in-component-button {
+  margin: var(--dl-space-space-twounits);
+}
+
