@@ -11,7 +11,7 @@
   width: 100%;
   display: flex;
   max-width: var(--dl-size-size-maxwidth);
-  align-self: stretch;
+  align-self: center;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   flex-direction: column;
