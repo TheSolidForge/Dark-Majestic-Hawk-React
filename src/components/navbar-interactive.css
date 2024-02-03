@@ -16,13 +16,6 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
-.navbar-interactive-logo {
-  font-size: 2em;
-  font-family: "Lato";
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-}
 .navbar-interactive-desktop-menu {
   flex: 1;
   display: flex;
@@ -36,10 +29,20 @@
   justify-content: center;
 }
 .navbar-interactive-nav1 {
+  width: var(--dl-size-size-large);
   transition: 0.3s;
+  margin-left: var(--dl-space-space-twounits);
+  margin-right: var(--dl-space-space-twounits);
   text-decoration: none;
 }
 .navbar-interactive-nav1:hover {
+  color: #3d6e70ff;
+}
+.navbar-interactive-nav11 {
+  transition: 0.3s;
+  text-decoration: none;
+}
+.navbar-interactive-nav11:hover {
   color: #3d6e70ff;
 }
 .navbar-interactive-nav2 {
@@ -138,7 +141,7 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.navbar-interactive-logo1 {
+.navbar-interactive-logo {
   font-size: 2em;
   font-weight: bold;
 }
@@ -160,7 +163,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.navbar-interactive-nav11 {
+.navbar-interactive-nav12 {
   color: var(--dl-color-gray-black);
   margin-bottom: var(--dl-space-space-unit);
 }
@@ -235,11 +238,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .navbar-interactive-desktop-menu {
-    display: none;
-  }
   .navbar-interactive-burger-menu {
-    display: flex;
     align-items: center;
     justify-content: center;
   }
@@ -249,7 +248,7 @@
     padding-right: var(--dl-space-space-twounits);
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
-  .navbar-interactive-nav11 {
+  .navbar-interactive-nav12 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .navbar-interactive-nav21 {
@@ -274,13 +273,16 @@
     width: 90%;
     padding: var(--dl-space-space-unit);
   }
-  .navbar-interactive-logo {
-    font-size: 1.5em;
+  .navbar-interactive-desktop-menu {
+    display: none;
+  }
+  .navbar-interactive-burger-menu {
+    display: flex;
   }
   .navbar-interactive-mobile-menu {
     padding: 16px;
   }
-  .navbar-interactive-logo1 {
+  .navbar-interactive-logo {
     font-size: 1.5em;
   }
   .navbar-interactive-icon02 {

@@ -12,16 +12,16 @@ const NavbarInteractive = (props) => {
         data-thq="thq-navbar"
         className="navbar-interactive-navbar-interactive"
       >
-        <Link to="/" className="navbar-interactive-logo">
-          {props.logo}
-        </Link>
         <div
           data-thq="thq-navbar-nav"
           className="navbar-interactive-desktop-menu"
         >
           <nav className="navbar-interactive-links">
-            <Link to="/profile-and-resume" className="navbar-interactive-nav1">
+            <Link to="/" className="navbar-interactive-nav1">
               {props.nav1}
+            </Link>
+            <Link to="/profile-and-resume" className="navbar-interactive-nav11">
+              {props.nav12}
             </Link>
             <Link to="/services" className="navbar-interactive-nav2">
               {props.nav2}
@@ -62,7 +62,7 @@ const NavbarInteractive = (props) => {
         >
           <div className="navbar-interactive-nav">
             <div className="navbar-interactive-top">
-              <span className="navbar-interactive-logo1">{props.logo1}</span>
+              <span className="navbar-interactive-logo">{props.logo1}</span>
               <div
                 data-thq="thq-close-menu"
                 className="navbar-interactive-close-menu"
@@ -79,7 +79,7 @@ const NavbarInteractive = (props) => {
               </div>
             </div>
             <nav className="navbar-interactive-links1">
-              <span className="navbar-interactive-nav11">{props.nav11}</span>
+              <span className="navbar-interactive-nav12">{props.nav11}</span>
               <span className="navbar-interactive-nav21">{props.nav21}</span>
               <span className="navbar-interactive-nav31">{props.nav31}</span>
               <span className="navbar-interactive-nav41">{props.nav41}</span>
@@ -139,14 +139,16 @@ NavbarInteractive.defaultProps = {
   nav41: 'Projects',
   nav5: 'Contact',
   register: 'Register',
-  logo: 'The Solid Forge',
+  logo: 'The SolidForge',
   login1: 'Login',
   register1: 'Register',
   logo1: 'COMPANYNAME',
   nav21: 'Services',
-  nav1: 'About',
+  nav1: 'The Solid Forge',
   nav31: 'Articles',
   nav11: 'About',
+  text: 'Text',
+  nav12: 'About',
 }
 
 NavbarInteractive.propTypes = {
@@ -167,6 +169,8 @@ NavbarInteractive.propTypes = {
   nav1: PropTypes.string,
   nav31: PropTypes.string,
   nav11: PropTypes.string,
+  text: PropTypes.string,
+  nav12: PropTypes.string,
 }
 
 export default NavbarInteractive

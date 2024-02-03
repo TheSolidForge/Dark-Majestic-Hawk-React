@@ -29,8 +29,8 @@ const Footer = (props) => {
               className="footer-link"
             >
               <img
-                src={props.imageSrc}
                 alt={props.imageAlt}
+                src={props.imageSrc}
                 className="footer-image"
               />
             </a>
@@ -56,28 +56,28 @@ const Footer = (props) => {
 
 Footer.defaultProps = {
   nav3: 'Articles',
+  imageAlt: 'image',
   logo: 'The Solid Forge',
   nav4: 'Projects',
   text: '© 2024 SOLIDFORGE, All Rights Reserved.',
   nav1: 'About',
   nav2: 'Services',
+  imageSrc: '/3rd Part Company Logos/li-in-bug-200h.png',
   nav5: 'Contact',
   rootClassName: '',
-  imageSrc: '/3rd Part Company Logos/li-in-bug-200h.png',
-  imageAlt: 'image',
 }
 
 Footer.propTypes = {
   nav3: PropTypes.string,
+  imageAlt: PropTypes.string,
   logo: PropTypes.string,
   nav4: PropTypes.string,
   text: PropTypes.string,
   nav1: PropTypes.string,
   nav2: PropTypes.string,
+  imageSrc: PropTypes.string,
   nav5: PropTypes.string,
   rootClassName: PropTypes.string,
-  imageSrc: PropTypes.string,
-  imageAlt: PropTypes.string,
 }
 
 export default Footer
