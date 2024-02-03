@@ -31,6 +31,12 @@ const TheSolidForge = (props) => {
           <Link to="/contact-and-about" className="the-solid-forge-nav5">
             Contact
           </Link>
+          <Link to="/log-in" className="the-solid-forge-navlink button">
+            <span className="the-solid-forge-text">
+              <span>Log In -&gt;</span>
+              <br></br>
+            </span>
+          </Link>
         </nav>
       </div>
       <img

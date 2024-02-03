@@ -10,7 +10,7 @@
   gap: var(--dl-space-space-oneandhalfunits);
   width: 100%;
   display: flex;
-  max-width: var(--dl-size-size-maxwidth);
+  max-width: 100%;
   align-self: center;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
@@ -54,7 +54,19 @@
 .the-solid-forge-nav5 {
   color: var(--dl-color-secondary-gray500);
   margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
   text-decoration: none;
+}
+.the-solid-forge-navlink {
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  text-decoration: none;
+  background-color: #C68733;
+}
+.the-solid-forge-text {
+  color: #1e1e17;
 }
 .the-solid-forge-image {
   width: 100%;
