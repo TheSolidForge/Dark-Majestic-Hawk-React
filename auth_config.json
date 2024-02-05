@@ -1,0 +1,6 @@
+{
+  "domain": "dev-t0gyi1sq7wi6ohqq.us.auth0.com",
+  "clientId": "{NtqfrvAnMzQ2FCzEfX4lZNI5t4QoM1rU",
+  "audience": "{yourApiIdentifier}"
+  "appOrigin": "https://www.thesolidforge.com"
+}

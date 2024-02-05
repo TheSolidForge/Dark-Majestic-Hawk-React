@@ -1,38 +1,42 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import {
-  BrowserRouter as Router,
-  Route,
-  Switch,
-  Redirect,
-} from 'react-router-dom'
+import React from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import * as serviceWorker from "./serviceWorker";
+import { Auth0Provider } from "@auth0/auth0-react";
+import history from "./utils/history";
+import { getConfig } from "./config";
 
-import './style.css'
-import Projects from './views/projects'
-import TheSolidForge from './views/the-solid-forge'
-import Services from './views/services'
-import ProfileAndResume from './views/profile-and-resume'
-import Articles from './views/articles'
-import ContactAndAbout from './views/contact-and-about'
-import LogIn from './views/log-in'
-import NotFound from './views/not-found'
+const onRedirectCallback = (appState) => {
+  history.push(
+    appState && appState.returnTo ? appState.returnTo : window.location.pathname
+  );
+};
 
-const App = () => {
-  return (
-    <Router>
-      <Switch>
-        <Route component={Projects} exact path="/projects" />
-        <Route component={TheSolidForge} exact path="/" />
-        <Route component={Services} exact path="/services" />
-        <Route component={ProfileAndResume} exact path="/profile-and-resume" />
-        <Route component={Articles} exact path="/articles" />
-        <Route component={ContactAndAbout} exact path="/contact-and-about" />
-        <Route component={LogIn} exact path="/log-in" />
-        <Route component={NotFound} path="**" />
-        <Redirect to="**" />
-      </Switch>
-    </Router>
-  )
-}
+// Please see https://auth0.github.io/auth0-react/interfaces/Auth0ProviderOptions.html
+// for a full list of the available properties on the provider
+const config = getConfig();
 
-ReactDOM.render(<App />, document.getElementById('app'))
+const providerConfig = {
+  domain: config.domain,
+  clientId: config.clientId,
+  onRedirectCallback,
+  authorizationParams: {
+    redirect_uri: window.location.origin,
+    ...(config.audience ? { audience: config.audience } : null),
+  },
+};
+
+const root = createRoot(document.getElementById('root'));
+root.render(
+  <Auth0Provider
+    {...providerConfig}
+  >
+    <App />
+  </Auth0Provider>,
+);
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+serviceWorker.unregister();
