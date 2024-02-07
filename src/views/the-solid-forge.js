@@ -18,7 +18,17 @@ const TheSolidForge = (props) => {
         <span className="the-solid-forge-logo">The Solid Forge</span>
         <div className="the-solid-forge-container2">
           <NetlifyAuthentication rootClassName="netlify-authentication-root-class-name1"></NetlifyAuthentication>
-          <div data-netlify-identity-menu>
+          <div
+            data-netlify-identity-menu
+            className="the-solid-forge-netlify-container"
+          >
+            <div className="the-solid-forge-container3">
+              <img
+                src="/Brand/web%20landing%20logo.svg"
+                alt="image"
+                className="the-solid-forge-image"
+              />
+            </div>
             <div
               data-netlify-identity-button
               className="the-solid-forge-netlify-button logInButton"
@@ -35,7 +45,7 @@ const TheSolidForge = (props) => {
       <img
         alt="image"
         src="/Brand/web%20landing%20logo.svg"
-        className="the-solid-forge-image"
+        className="the-solid-forge-image1"
       />
       <Footer rootClassName="footer-root-class-name"></Footer>
     </div>

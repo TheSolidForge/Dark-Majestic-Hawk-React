@@ -31,23 +31,46 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
+}
+.the-solid-forge-netlify-container {
+  width: var(--dl-size-size-large);
+  margin: var(--dl-space-space-unit);
+}
+.the-solid-forge-container3 {
+  width: auto;
+  height: auto;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.the-solid-forge-image {
+  width: var(--dl-size-size-large);
+  height: var(--dl-size-size-small);
+  align-self: center;
+  object-fit: cover;
 }
 .the-solid-forge-netlify-button {
   flex: 0 0 auto;
   color: white;
   width: auto;
   height: auto;
+  margin: var(--dl-space-space-unit);
   display: flex;
   align-items: flex-start;
   border-color: var(--dl-color-gray-white);
   border-style: dashed;
   border-width: 2px;
   flex-direction: column;
+  justify-content: center;
 }
 .the-solid-forge-text {
   color: var(--dl-color-gray-black);
 }
-.the-solid-forge-image {
+.the-solid-forge-image1 {
   width: 100%;
   padding: -8px;
   object-fit: cover;
