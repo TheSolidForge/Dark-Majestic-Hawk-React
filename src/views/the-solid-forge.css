@@ -32,18 +32,20 @@
   align-items: center;
   flex-direction: column;
 }
-.the-solid-forge-netlify-container {
-  display: none;
-}
 .the-solid-forge-netlify-button {
   flex: 0 0 auto;
   color: white;
-  width: 200px;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: 100px;
-  display: none;
+  width: auto;
+  height: auto;
+  display: flex;
   align-items: flex-start;
+  border-color: var(--dl-color-gray-white);
+  border-style: dashed;
+  border-width: 2px;
   flex-direction: column;
+}
+.the-solid-forge-text {
+  color: var(--dl-color-gray-black);
 }
 .the-solid-forge-image {
   width: 100%;

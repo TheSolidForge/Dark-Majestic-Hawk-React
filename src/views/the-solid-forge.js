@@ -18,14 +18,17 @@ const TheSolidForge = (props) => {
         <span className="the-solid-forge-logo">The Solid Forge</span>
         <div className="the-solid-forge-container2">
           <NetlifyAuthentication rootClassName="netlify-authentication-root-class-name1"></NetlifyAuthentication>
-          <div
-            data-netlify-identity-menu
-            className="the-solid-forge-netlify-container"
-          ></div>
-          <div
-            data-netlify-identity-button
-            className="the-solid-forge-netlify-button logInButton"
-          ></div>
+          <div data-netlify-identity-menu>
+            <div
+              data-netlify-identity-button
+              className="the-solid-forge-netlify-button logInButton"
+            >
+              <span className="the-solid-forge-text">
+                <span>Log-In or Register</span>
+                <br></br>
+              </span>
+            </div>
+          </div>
         </div>
         <NavbarInteractive rootClassName="navbar-interactive-root-class-name6"></NavbarInteractive>
       </div>
