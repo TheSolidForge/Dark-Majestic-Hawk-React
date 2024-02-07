@@ -28,19 +28,19 @@ const LogInComponent = (props) => {
 }
 
 LogInComponent.defaultProps = {
-  text: 'Log In',
   textinputplaceholder: 'placeholder',
-  textinputplaceholder1: 'placeholder',
   button: 'Button',
+  textinputplaceholder1: 'placeholder',
   rootClassName: '',
+  text: 'Log In',
 }
 
 LogInComponent.propTypes = {
-  text: PropTypes.string,
   textinputplaceholder: PropTypes.string,
-  textinputplaceholder1: PropTypes.string,
   button: PropTypes.string,
+  textinputplaceholder1: PropTypes.string,
   rootClassName: PropTypes.string,
+  text: PropTypes.string,
 }
 
 export default LogInComponent

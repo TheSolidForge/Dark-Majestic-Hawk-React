@@ -1,0 +1,38 @@
+.netlify-authentication-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.netlify-authentication-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.netlify-authentication-button {
+  width: var(--dl-size-size-large);
+  padding: var(--dl-space-space-unit);
+  margin-top: var(--dl-space-space-unit);
+  font-family: "Noto Sans";
+  margin-left: var(--dl-space-space-unit);
+  padding-top: 16px;
+  margin-right: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
+  padding-bottom: 16px;
+}
+.netlify-authentication-button1 {
+  width: var(--dl-size-size-large);
+  padding: var(--dl-space-space-unit);
+  margin-top: var(--dl-space-space-unit);
+  font-family: "Noto Sans";
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+

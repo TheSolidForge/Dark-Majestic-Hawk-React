@@ -9,8 +9,8 @@ const ZPlaceholderOctopusLottie = (props) => {
     <div className="z-placeholder-octopus-lottie-container">
       <Player
         src="https://presentation-website-assets.teleporthq.io/features/lottie.json"
-        autoplay="true"
         speed="1"
+        autoplay="true"
         background="transparent"
         className="z-placeholder-octopus-lottie-lottie-node"
       ></Player>

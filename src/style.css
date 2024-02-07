@@ -101,6 +101,13 @@
 .heading4 {
   font-size: 1.2rem;
 }
+.logInButton {
+  background: white;
+  border-color: var(--dl-color-gray-black);
+  border-width: 2px;
+  align-content: center;
+  border-radius: var(--dl-radius-radius-radius4);
+}
 .Heading {
   font-size: 32px;
   font-family: Inter;

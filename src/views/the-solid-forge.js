@@ -1,8 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
+import NavbarInteractive from '../components/navbar-interactive'
 import Footer from '../components/footer'
 import './the-solid-forge.css'
 
@@ -15,33 +15,11 @@ const TheSolidForge = (props) => {
       </Helmet>
       <div className="the-solid-forge-container1">
         <span className="the-solid-forge-logo">The Solid Forge</span>
-        <nav className="the-solid-forge-nav">
-          <Link to="/contact-and-about" className="the-solid-forge-nav1">
-            About
-          </Link>
-          <Link to="/services" className="the-solid-forge-nav2">
-            Services
-          </Link>
-          <Link to="/projects" className="the-solid-forge-nav3">
-            Articles
-          </Link>
-          <Link to="/projects" className="the-solid-forge-nav4">
-            Projects
-          </Link>
-          <Link to="/contact-and-about" className="the-solid-forge-nav5">
-            Contact
-          </Link>
-          <Link to="/log-in" className="the-solid-forge-navlink button">
-            <span className="the-solid-forge-text">
-              <span>Log In -&gt;</span>
-              <br></br>
-            </span>
-          </Link>
-        </nav>
+        <NavbarInteractive rootClassName="navbar-interactive-root-class-name6"></NavbarInteractive>
       </div>
       <img
-        src="/Brand/web%20landing%20logo.svg"
         alt="image"
+        src="/Brand/web%20landing%20logo.svg"
         className="the-solid-forge-image"
       />
       <Footer rootClassName="footer-root-class-name"></Footer>

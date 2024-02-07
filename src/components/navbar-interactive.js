@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
+import NetlifyAuthentication from './netlify-authentication'
 import './navbar-interactive.css'
 
 const NavbarInteractive = (props) => {
@@ -44,6 +45,10 @@ const NavbarInteractive = (props) => {
               {props.register}
             </button>
           </div>
+          <NetlifyAuthentication
+            rootClassName="netlify-authentication-root-class-name"
+            className=""
+          ></NetlifyAuthentication>
         </div>
         <div
           data-thq="thq-burger-menu"
@@ -133,7 +138,9 @@ NavbarInteractive.defaultProps = {
   nav2: 'Services',
   nav51: 'Contact',
   nav3: 'Articles',
+  text: 'Text',
   login: 'Login',
+  nav12: 'About',
   nav4: 'Projects',
   rootClassName: '',
   nav41: 'Projects',
@@ -147,15 +154,15 @@ NavbarInteractive.defaultProps = {
   nav1: 'The Solid Forge',
   nav31: 'Articles',
   nav11: 'About',
-  text: 'Text',
-  nav12: 'About',
 }
 
 NavbarInteractive.propTypes = {
   nav2: PropTypes.string,
   nav51: PropTypes.string,
   nav3: PropTypes.string,
+  text: PropTypes.string,
   login: PropTypes.string,
+  nav12: PropTypes.string,
   nav4: PropTypes.string,
   rootClassName: PropTypes.string,
   nav41: PropTypes.string,
@@ -169,8 +176,6 @@ NavbarInteractive.propTypes = {
   nav1: PropTypes.string,
   nav31: PropTypes.string,
   nav11: PropTypes.string,
-  text: PropTypes.string,
-  nav12: PropTypes.string,
 }
 
 export default NavbarInteractive
