@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
+import NetlifyAuthentication from '../components/netlify-authentication'
 import NavbarInteractive from '../components/navbar-interactive'
 import Footer from '../components/footer'
 import './the-solid-forge.css'
@@ -15,6 +16,14 @@ const TheSolidForge = (props) => {
       </Helmet>
       <div className="the-solid-forge-container1">
         <span className="the-solid-forge-logo">The Solid Forge</span>
+        <div className="the-solid-forge-container2">
+          <NetlifyAuthentication rootClassName="netlify-authentication-root-class-name1"></NetlifyAuthentication>
+          <div data-netlify-identity-menu></div>
+          <div
+            data-netlify-identity-button
+            className="the-solid-forge-netlify-button"
+          ></div>
+        </div>
         <NavbarInteractive rootClassName="navbar-interactive-root-class-name6"></NavbarInteractive>
       </div>
       <img

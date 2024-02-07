@@ -14,9 +14,9 @@
   align-self: center;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
-  flex-direction: column;
+  flex-direction: row;
   padding-bottom: var(--dl-space-space-twounits);
-  justify-content: flex-start;
+  justify-content: center;
   background-color: #000000;
 }
 .the-solid-forge-logo {
@@ -24,8 +24,47 @@
   font-size: 2em;
   font-weight: bold;
 }
+.the-solid-forge-container2 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.the-solid-forge-netlify-button {
+  flex: 0 0 auto;
+  color: white;
+  width: 200px;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
 .the-solid-forge-image {
   width: 100%;
   padding: -8px;
   object-fit: cover;
+}
+@media(max-width: 1600px) {
+  .the-solid-forge-netlify-button {
+    padding: var(--dl-space-space-unit);
+    align-items: center;
+    border-color: var(--dl-color-secondary-gray500);
+    border-width: 1px;
+    justify-content: center;
+  }
+}
+@media(max-width: 767px) {
+  .the-solid-forge-netlify-button {
+    padding: var(--dl-space-space-unit);
+    align-items: center;
+    padding-top: var(--dl-space-space-unit);
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-bottom: 16px;
+    justify-content: center;
+    background-color: #D9D9D9;
+  }
 }

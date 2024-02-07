@@ -19,7 +19,3 @@
   padding: var(--dl-space-space-twounits);
   object-fit: cover;
 }
-.log-in-widget-root-class-name {
-  width: auto;
-  height: auto;
-}

@@ -14,10 +14,7 @@ const LogInWidget = (props) => {
           src={props.imagesrc1}
           className="log-in-widget-image"
         />
-        <LogInComponent
-          rootClassName="log-in-component-root-class-name"
-          className=""
-        ></LogInComponent>
+        <LogInComponent rootClassName="log-in-component-root-class-name"></LogInComponent>
       </div>
     </div>
   )
