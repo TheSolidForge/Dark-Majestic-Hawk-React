@@ -254,6 +254,7 @@
 
 .navbar-interactive-root-class-name6 {
   margin: var(--dl-space-space-halfunit);
+  display: none;
 }
 @media(max-width: 767px) {
   .navbar-interactive-navbar-interactive {
