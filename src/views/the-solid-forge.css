@@ -26,5 +26,6 @@
 }
 .the-solid-forge-image {
   width: 100%;
+  padding: -8px;
   object-fit: cover;
 }
