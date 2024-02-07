@@ -33,10 +33,13 @@ const TheSolidForge = (props) => {
               data-netlify-identity-button
               className="the-solid-forge-netlify-button logInButton"
             >
-              <span className="the-solid-forge-text">
-                <span>Log-In or Register</span>
-                <br></br>
-              </span>
+              <img
+                src="/Images/orange%20calendula%20officinalis-200w.png"
+                alt="image"
+                className="the-solid-forge-image1"
+              />
+              <label className="the-solid-forge-text">Label</label>
+              <span>Text</span>
             </div>
           </div>
         </div>
@@ -45,7 +48,7 @@ const TheSolidForge = (props) => {
       <img
         alt="image"
         src="/Brand/web%20landing%20logo.svg"
-        className="the-solid-forge-image1"
+        className="the-solid-forge-image2"
       />
       <Footer rootClassName="footer-root-class-name"></Footer>
     </div>
