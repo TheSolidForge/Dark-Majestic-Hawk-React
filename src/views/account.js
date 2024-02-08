@@ -19,16 +19,16 @@ const Account = (props) => {
         <div className="account-container2">
           <SmallSpacer rootClassName="small-spacer-root-class-name7"></SmallSpacer>
           <img
-            src="/Brand/web%20landing%20logo.svg"
             alt="image"
+            src="/Brand/web%20landing%20logo.svg"
             className="account-image"
           />
         </div>
         <div className="account-container3">
           <SmallSpacer rootClassName="small-spacer-root-class-name9"></SmallSpacer>
           <img
-            src="/Brand/gimp-%20solidforge%20business%20card%20back-200h.jpg"
             alt="image"
+            src="/Brand/gimp-%20solidforge%20business%20card%20back-200h.jpg"
             className="account-image1"
           />
         </div>

@@ -35,6 +35,7 @@
 .netlify-authentication-root-class-name1 {
   width: auto;
   margin: var(--dl-space-space-unit);
+  display: none;
 }
 @media(max-width: 1600px) {
   .netlify-authentication-netlify-button {

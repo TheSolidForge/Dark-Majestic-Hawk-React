@@ -22,24 +22,12 @@ const TheSolidForge = (props) => {
             data-netlify-identity-menu
             className="the-solid-forge-netlify-container"
           >
-            <div className="the-solid-forge-container3">
-              <img
-                src="/Brand/web%20landing%20logo.svg"
-                alt="image"
-                className="the-solid-forge-image"
-              />
-            </div>
             <div
               data-netlify-identity-button
               className="the-solid-forge-netlify-button logInButton"
             >
-              <img
-                src="/Images/orange%20calendula%20officinalis-200w.png"
-                alt="image"
-                className="the-solid-forge-image1"
-              />
               <label className="the-solid-forge-text">Label</label>
-              <span>Text</span>
+              <span className="the-solid-forge-text1">Account</span>
             </div>
           </div>
         </div>
@@ -48,7 +36,7 @@ const TheSolidForge = (props) => {
       <img
         alt="image"
         src="/Brand/web%20landing%20logo.svg"
-        className="the-solid-forge-image2"
+        className="the-solid-forge-image"
       />
       <Footer rootClassName="footer-root-class-name"></Footer>
     </div>

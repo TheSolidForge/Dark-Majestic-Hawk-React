@@ -86,10 +86,10 @@ const NavbarInteractive = (props) => {
             </Link>
           </nav>
           <div className="navbar-interactive-buttons1">
-            <button className="navbar-interactive-login1 button logInButton">
+            <button className="navbar-interactive-login1 logInButton button">
               {props.login2}
             </button>
-            <button className="navbar-interactive-register1 button logInButton">
+            <button className="navbar-interactive-register1 logInButton button">
               {props.register2}
             </button>
           </div>
@@ -104,29 +104,29 @@ NavbarInteractive.defaultProps = {
   nav51: 'Contact',
   nav3: 'Articles',
   text: 'Text',
+  login2: 'Login',
   login: 'Login',
   nav12: 'About',
   nav4: 'Projects',
   rootClassName: '',
   nav41: 'Projects',
+  nav13: 'The Solid Forge',
   nav5: 'Contact',
+  register2: 'Register',
   register: 'Register',
   logo: 'The SolidForge',
   login1: 'Login',
   register1: 'Register',
-  logo1: 'COMPANYNAME',
-  nav21: 'Services',
-  nav1: 'The Solid Forge',
-  nav31: 'Articles',
-  nav11: 'About',
-  nav13: 'The Solid Forge',
-  nav121: 'About',
-  nav22: 'Services',
-  nav32: 'Articles',
   nav42: 'Projects',
   nav52: 'Contact',
-  login2: 'Login',
-  register2: 'Register',
+  logo1: 'COMPANYNAME',
+  nav32: 'Articles',
+  nav121: 'About',
+  nav21: 'Services',
+  nav1: 'The Solid Forge',
+  nav22: 'Services',
+  nav31: 'Articles',
+  nav11: 'About',
 }
 
 NavbarInteractive.propTypes = {
@@ -134,29 +134,29 @@ NavbarInteractive.propTypes = {
   nav51: PropTypes.string,
   nav3: PropTypes.string,
   text: PropTypes.string,
+  login2: PropTypes.string,
   login: PropTypes.string,
   nav12: PropTypes.string,
   nav4: PropTypes.string,
   rootClassName: PropTypes.string,
   nav41: PropTypes.string,
+  nav13: PropTypes.string,
   nav5: PropTypes.string,
+  register2: PropTypes.string,
   register: PropTypes.string,
   logo: PropTypes.string,
   login1: PropTypes.string,
   register1: PropTypes.string,
-  logo1: PropTypes.string,
-  nav21: PropTypes.string,
-  nav1: PropTypes.string,
-  nav31: PropTypes.string,
-  nav11: PropTypes.string,
-  nav13: PropTypes.string,
-  nav121: PropTypes.string,
-  nav22: PropTypes.string,
-  nav32: PropTypes.string,
   nav42: PropTypes.string,
   nav52: PropTypes.string,
-  login2: PropTypes.string,
-  register2: PropTypes.string,
+  logo1: PropTypes.string,
+  nav32: PropTypes.string,
+  nav121: PropTypes.string,
+  nav21: PropTypes.string,
+  nav1: PropTypes.string,
+  nav22: PropTypes.string,
+  nav31: PropTypes.string,
+  nav11: PropTypes.string,
 }
 
 export default NavbarInteractive

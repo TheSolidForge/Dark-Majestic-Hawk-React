@@ -293,7 +293,6 @@
     height: auto;
     padding: 16px;
     position: static;
-    align-self: center;
   }
   .navbar-interactive-links1 {
     flex-direction: column;

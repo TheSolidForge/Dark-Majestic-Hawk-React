@@ -14,7 +14,7 @@ const NetlifyAuthentication = (props) => {
         >
           <button
             type="button"
-            className="netlify-authentication-button button logInButton"
+            className="netlify-authentication-button logInButton button"
           >
             {props.logIn}
           </button>
@@ -25,14 +25,14 @@ const NetlifyAuthentication = (props) => {
 }
 
 NetlifyAuthentication.defaultProps = {
-  logIn: 'Log-In or Register',
   signup: 'Sign Up',
+  logIn: 'Log-In or Register',
   rootClassName: '',
 }
 
 NetlifyAuthentication.propTypes = {
-  logIn: PropTypes.string,
   signup: PropTypes.string,
+  logIn: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 
