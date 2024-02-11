@@ -18,7 +18,7 @@ const Footer = (props) => {
             <Link to="/services" className="footer-nav2">
               {props.nav2}
             </Link>
-            <Link to="/projects" className="footer-nav3">
+            <Link to="/articles" className="footer-nav3">
               {props.nav3}
             </Link>
             <Link to="/projects" className="footer-nav4">

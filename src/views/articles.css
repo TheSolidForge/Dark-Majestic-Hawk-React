@@ -10,11 +10,15 @@
   flex: 0 0 auto;
   width: 100%;
   height: auto;
+  margin: var(--dl-space-space-unit);
   display: flex;
-  padding: -50px;
   align-items: center;
+  padding-top: var(--dl-space-space-unit);
+  padding-left: -50px;
+  padding-right: -50px;
   flex-direction: column;
-  background-size: auto;
+  padding-bottom: -50px;
+  background-size: cover;
   justify-content: flex-start;
   background-image: url("/Images/ucsd%20bridge1-1500w.png");
 }
@@ -25,11 +29,7 @@
   align-self: center;
   min-height: auto;
   align-items: center;
-  padding-top: var(--dl-space-space-sixunits);
-  padding-left: var(--dl-space-space-threeunits);
-  padding-right: var(--dl-space-space-threeunits);
   flex-direction: column;
-  padding-bottom: var(--dl-space-space-sixunits);
   justify-content: center;
 }
 .articles-container1 {
