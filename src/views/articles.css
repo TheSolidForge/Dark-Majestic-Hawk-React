@@ -54,7 +54,7 @@
 }
 .articles-btn-group {
   gap: var(--dl-space-space-oneandhalfunits);
-  display: flex;
+  display: none;
   align-items: center;
   flex-direction: row;
 }
@@ -105,7 +105,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.articles-text04 {
+.articles-text02 {
   color: var(--dl-color-primary1-blue80);
   text-align: left;
   font-family: "Raleway";
@@ -168,7 +168,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.articles-text07 {
+.articles-text05 {
   color: var(--dl-color-primary1-blue80);
   font-family: "Raleway";
   margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -186,9 +186,55 @@
 }
 .articles-container4 {
   width: 100%;
-  display: grid;
+  display: none;
   grid-gap: var(--dl-space-space-twounits);
   grid-template-columns: 1fr 1fr;
+}
+.articles-feature-card {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  position: relative;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: var(--dl-color-gray-white);
+}
+.articles-icon {
+  fill: var(--dl-color-primary1-blue80);
+  width: 2rem;
+  height: 2rem;
+  flex-shrink: 0;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}
+.articles-container5 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.articles-text08 {
+  font-family: "Raleway";
+  font-weight: 600;
+  line-height: 28px;
+}
+.articles-text09 {
+  color: var(--dl-color-gray-800);
+  line-height: 1.6;
+}
+.articles-text14 {
+  font-weight: 700;
+}
+.articles-text21 {
+  font-weight: 700;
+}
+.articles-text28 {
+  font-weight: 700;
+}
+.articles-text34 {
+  font-weight: 700;
 }
 .articles-footer {
   flex: 0 0 auto;
@@ -251,7 +297,7 @@
     align-items: center;
     justify-content: flex-start;
   }
-  .articles-text04 {
+  .articles-text02 {
     text-align: center;
   }
   .articles-details-heading {
@@ -277,6 +323,12 @@
   .articles-container4 {
     grid-template-columns: 1fr;
   }
+  .articles-feature-card {
+    flex-direction: row;
+  }
+  .articles-container5 {
+    flex-direction: column;
+  }
 }
 @media(max-width: 479px) {
   .articles-hero1 {
@@ -296,5 +348,8 @@
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
+  }
+  .articles-container5 {
+    flex-direction: column;
   }
 }
