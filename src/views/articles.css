@@ -54,7 +54,7 @@
 }
 .articles-btn-group {
   gap: var(--dl-space-space-oneandhalfunits);
-  display: none;
+  display: flex;
   align-items: center;
   flex-direction: row;
 }
