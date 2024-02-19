@@ -12,10 +12,15 @@ const ProfileAndResume = (props) => {
   return (
     <div className="profile-and-resume-container">
       <Helmet>
-        <title>Profile-and-Resume - Dark Majestic Hawk</title>
+        <title>Profile Resume and Experience</title>
         <meta
-          property="og:title"
-          content="Profile-and-Resume - Dark Majestic Hawk"
+          name="description"
+          content="North Carolina State University NC State 3D Systems SmileDirectClub KBS Services Kellermeyer Bergensons Services Nordson Asymtech Geomagic Polyworks stratasys"
+        />
+        <meta property="og:title" content="Profile Resume and Experience" />
+        <meta
+          property="og:description"
+          content="North Carolina State University NC State 3D Systems SmileDirectClub KBS Services Kellermeyer Bergensons Services Nordson Asymtech Geomagic Polyworks stratasys"
         />
       </Helmet>
       <div className="profile-and-resume-header">

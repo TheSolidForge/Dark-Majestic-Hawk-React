@@ -12,8 +12,16 @@ const Services = (props) => {
   return (
     <div className="services-container">
       <Helmet>
-        <title>Services - Dark Majestic Hawk</title>
-        <meta property="og:title" content="Services - Dark Majestic Hawk" />
+        <title>The SOLIDFORGE Services</title>
+        <meta
+          name="description"
+          content="Additive Manufacturing, .Net python 3D 3DPrinting lathe CNC ruby react analytics real-time analysis 3d scan volumetric IoT IIoT"
+        />
+        <meta property="og:title" content="The SOLIDFORGE Services" />
+        <meta
+          property="og:description"
+          content="Additive Manufacturing, .Net python 3D 3DPrinting lathe CNC ruby react analytics real-time analysis 3d scan volumetric IoT IIoT"
+        />
       </Helmet>
       <NavbarInteractive rootClassName="navbar-interactive-root-class-name4"></NavbarInteractive>
       <div className="services-container1">

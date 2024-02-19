@@ -11,10 +11,15 @@ const ContactAndAbout = (props) => {
   return (
     <div className="contact-and-about-container">
       <Helmet>
-        <title>Contact-and-About - Dark Majestic Hawk</title>
+        <title>Contact and About SOLIDFORGE</title>
         <meta
-          property="og:title"
-          content="Contact-and-About - Dark Majestic Hawk"
+          name="description"
+          content="Advanced Manufacturing consulting services Product Management Software Development"
+        />
+        <meta property="og:title" content="Contact and About SOLIDFORGE" />
+        <meta
+          property="og:description"
+          content="Advanced Manufacturing consulting services Product Management Software Development"
         />
       </Helmet>
       <NavbarInteractive rootClassName="navbar-interactive-root-class-name"></NavbarInteractive>

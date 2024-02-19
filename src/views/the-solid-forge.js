@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
@@ -12,7 +13,15 @@ const TheSolidForge = (props) => {
     <div className="the-solid-forge-container">
       <Helmet>
         <title>The Solid Forge</title>
+        <meta
+          name="description"
+          content="The SOLIDFORGEis a company focused on advanced manufacturing techniques, complex enterprise IT implementations, and full 3D support, computation and analysis."
+        />
         <meta property="og:title" content="The Solid Forge" />
+        <meta
+          property="og:description"
+          content="The SOLIDFORGEis a company focused on advanced manufacturing techniques, complex enterprise IT implementations, and full 3D support, computation and analysis."
+        />
       </Helmet>
       <div className="the-solid-forge-container1">
         <span className="the-solid-forge-logo">The Solid Forge</span>
@@ -29,6 +38,25 @@ const TheSolidForge = (props) => {
               <label className="the-solid-forge-text">Label</label>
               <span className="the-solid-forge-text1">Account</span>
             </div>
+          </div>
+          <div className="the-solid-forge-container3">
+            <nav className="the-solid-forge-nav">
+              <Link to="/contact-and-about" className="the-solid-forge-nav1">
+                About
+              </Link>
+              <Link to="/services" className="the-solid-forge-nav2">
+                Services
+              </Link>
+              <Link to="/articles" className="the-solid-forge-nav3">
+                Articles
+              </Link>
+              <Link to="/projects" className="the-solid-forge-nav4">
+                Projects
+              </Link>
+              <Link to="/contact-and-about" className="the-solid-forge-nav5">
+                Contact
+              </Link>
+            </nav>
           </div>
         </div>
         <NavbarInteractive rootClassName="navbar-interactive-root-class-name6"></NavbarInteractive>
