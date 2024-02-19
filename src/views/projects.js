@@ -19,7 +19,7 @@ const Projects = (props) => {
         <NavbarInteractive rootClassName="navbar-interactive-root-class-name2"></NavbarInteractive>
       </div>
       <SmallSpacer rootClassName="small-spacer-root-class-name5"></SmallSpacer>
-      <span className="projects-text">Under Construction </span>
+      <span className="projects-text">Please Log-In</span>
       <SmallSpacer rootClassName="small-spacer-root-class-name6"></SmallSpacer>
       <div className="projects-banner">
         <div className="projects-banner1">
