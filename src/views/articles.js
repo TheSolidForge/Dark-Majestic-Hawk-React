@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import NavbarInteractive from '../components/navbar-interactive'
@@ -19,7 +20,7 @@ const Articles = (props) => {
       <div className="articles-hero">
         <div className="articles-hero1">
           <SmallSpacer rootClassName="small-spacer-root-class-name2"></SmallSpacer>
-          <div className="articles-container1">
+          <div className="articles-container01">
             <h1 className="articles-hero-heading heading1">
               <span className="articles-text"> Published Content</span>
               <br></br>
@@ -39,7 +40,7 @@ const Articles = (props) => {
           <SmallSpacer rootClassName="small-spacer-root-class-name1"></SmallSpacer>
           <div className="articles-details">
             <div className="articles-details1">
-              <div className="articles-container2">
+              <div className="articles-container02">
                 <span className="articles-text02 sectionTitle">
                   <span>Details</span>
                   <br></br>
@@ -66,7 +67,7 @@ const Articles = (props) => {
           <div className="articles-features">
             <div className="articles-features-container">
               <div className="articles-features1">
-                <div className="articles-container3">
+                <div className="articles-container03">
                   <span className="articles-text05 sectionTitle">
                     <span>features</span>
                     <br></br>
@@ -79,7 +80,7 @@ const Articles = (props) => {
                     personal company&apos;s website and business potential.
                   </span>
                 </div>
-                <div className="articles-container4">
+                <div className="articles-container04">
                   <FeatureCard
                     heading="Advanced Manufacturing"
                     subHeading="Utilize cutting-edge technology for efficient and precise production processes."
@@ -104,11 +105,124 @@ const Articles = (props) => {
                   <svg viewBox="0 0 1024 1024" className="articles-icon">
                     <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
                   </svg>
-                  <div className="articles-container5">
-                    <h3 className="articles-text08 heading3">
+                  <div className="articles-container05">
+                    <div className="articles-container06">
+                      <h3 className="articles-text08 heading3">
+                        Measuring sand dunes in Mission Beach, San Diego
+                        California
+                      </h3>
+                      <span className="articles-text09">
+                        <span>
+                          Dynamic Reference Geometry can easily be extended to
+                          Volumes to intuitively demonstrate 3D Volumes when
+                          utilizing Real-Time ray tracing in 3D projects.
+                        </span>
+                        <br></br>
+                        <span>
+                          This in conjunction with environments that support
+                          Virtual reality enable the end user of this
+                          information to rationalize and make meaningful
+                          conclusions
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: ' ',
+                            }}
+                          />
+                        </span>
+                        <br></br>
+                        <span>with ambiguous or complex information. </span>
+                        <br></br>
+                        <br></br>
+                        <span>
+                          This all started with the question:
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: ' ',
+                            }}
+                          />
+                        </span>
+                        <span className="articles-text18">
+                          How much sand does the City of San Diego move every
+                          year to protect the beaches from the high surf of the
+                          winter? 
+                        </span>
+                        <br></br>
+                      </span>
+                      <img
+                        alt="image"
+                        src="/Articles/mission%20beach%20dune%20volume%20-700w.png"
+                        className="articles-image"
+                      />
+                      <span className="articles-text20">
+                        <span>
+                          This project utilized hand held scan data that was
+                          triangulated using AI tools on cloud servers. Google
+                          Earth Studio was used to create videos and 3D
+                          environments. With a streamlined workflow this project
+                          took an afternoon to complete. 
+                        </span>
+                        <br></br>
+                        <br></br>
+                        <span>
+                          Once all the data was gathered it was as simple as
+                          applying the Dynamic Reference geometry concept to the
+                          handheld scan data to volumetrically segment the data
+                          in the reference frame of the beach. This allowed for
+                          an origin to be anchored to the environment while the
+                          grid can be scaled into a visually meaningful size. 
+                        </span>
+                        <br></br>
+                        <br></br>
+                        <span>With this workflow it comes out to about</span>
+                        <span className="articles-text28">
+                          {' '}
+                          7 cubic feed of sand is piled for every foot of dune
+                          created.
+                        </span>
+                        <span> </span>
+                        <br></br>
+                      </span>
+                      <img
+                        alt="image"
+                        src="/Articles/mission_beach_snapshot_02-21-2024_14_55_28-700w.jpeg"
+                        className="articles-image1"
+                      />
+                      <span className="articles-text31">
+                        <span>
+                          Here is a link to a quick video complication on this
+                          project:  
+                        </span>
+                        <br></br>
+                      </span>
+                      <div className="articles-container07">
+                        <div className="articles-container08">
+                          <Script
+                            html={`<iframe width="560" height="315" src="https://www.youtube.com/embed/JDnjHjKG-MQ?si=OHtra7whJ-qitsMx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`}
+                          ></Script>
+                        </div>
+                      </div>
+                      <span className="articles-text34">
+                        <span>
+                          Here is a link to a quick video complication on this
+                          project:  
+                        </span>
+                        <br></br>
+                      </span>
+                    </div>
+                  </div>
+                </article>
+                <article
+                  id="Dynamic Reference Geometry"
+                  className="articles-feature-card1"
+                >
+                  <svg viewBox="0 0 1024 1024" className="articles-icon2">
+                    <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
+                  </svg>
+                  <div className="articles-container09">
+                    <h3 className="articles-text37 heading3">
                       Dynamic Reference Geometry Tech Demo
                     </h3>
-                    <span className="articles-text09">
+                    <span className="articles-text38">
                       <span>
                         Reference Geometry is a standard across all CAD, CAM or
                         other digital engineering software. Typically reference
@@ -128,21 +242,26 @@ const Articles = (props) => {
                       controls="true"
                       className="articles-video"
                     ></video>
+                    <span className="articles-text41">
+                      <br></br>
+                      <span>-SOLIDFORGE</span>
+                      <br></br>
+                    </span>
                   </div>
                 </article>
                 <article
                   id="SF AI Guidelines"
-                  className="articles-feature-card1"
+                  className="articles-feature-card2"
                 >
-                  <svg viewBox="0 0 1024 1024" className="articles-icon2">
+                  <svg viewBox="0 0 1024 1024" className="articles-icon4">
                     <path d="M809.003 291.328l-297.003 171.819-297.003-171.819 275.456-157.397c4.779-2.731 9.899-4.48 15.147-5.333 9.301-1.451 18.987 0.128 27.904 5.291zM491.776 979.669c6.016 3.243 12.928 5.077 20.224 5.077 7.381 0 14.336-1.877 20.395-5.163 15.189-2.475 29.909-7.68 43.392-15.36l298.709-170.709c26.368-15.232 45.269-38.315 55.424-64.597 5.675-14.592 8.619-30.165 8.747-46.251v-341.333c0-20.395-4.821-39.723-13.397-56.917-0.939-3.029-2.219-5.973-3.883-8.832-1.963-3.371-4.267-6.357-6.912-8.96-1.323-1.835-2.731-3.669-4.139-5.419-9.813-12.203-21.845-22.528-35.456-30.507l-299.051-170.88c-26.027-15.019-55.467-19.84-83.328-15.531-15.531 2.432-30.507 7.637-44.288 15.488l-298.709 170.709c-16.341 9.429-29.824 21.888-40.149 36.267-2.56 2.56-4.864 5.547-6.784 8.832-1.664 2.901-2.987 5.888-3.925 8.96-1.707 3.456-3.243 6.955-4.608 10.496-5.632 14.635-8.576 30.208-8.704 45.995v341.632c0.043 30.293 10.581 58.197 28.331 80.128 9.813 12.203 21.845 22.528 35.456 30.507l299.051 170.88c13.824 7.979 28.587 13.099 43.605 15.445zM469.333 537.045v340.949l-277.12-158.336c-4.736-2.773-8.832-6.315-12.16-10.411-5.931-7.381-9.387-16.512-9.387-26.581v-318.379zM554.667 877.995v-340.949l298.667-172.757v318.379c-0.043 5.163-1.067 10.496-2.987 15.445-3.413 8.789-9.6 16.384-18.176 21.333z"></path>
                   </svg>
-                  <div className="articles-container6">
-                    <h3 className="articles-text12 heading3">
+                  <div className="articles-container10">
+                    <h3 className="articles-text45 heading3">
                       SOLIDFORGE&apos;s Guidelines for engaging with Large
                       Language AI Models 
                     </h3>
-                    <span className="articles-text13">
+                    <span className="articles-text46">
                       <span>
                         AI is not well defined by general knowledge. This
                         guidance applies to the new wave of large language
@@ -162,7 +281,7 @@ const Articles = (props) => {
                           }}
                         />
                       </span>
-                      <span className="articles-text18">Use AI as a tool.</span>
+                      <span className="articles-text51">Use AI as a tool.</span>
                       <span> </span>
                       <br></br>
                       <span>
@@ -181,7 +300,7 @@ const Articles = (props) => {
                           }}
                         />
                       </span>
-                      <span className="articles-text25">
+                      <span className="articles-text58">
                         AI can be entertainment, but it should only be
                         entertainment.
                       </span>
@@ -206,7 +325,7 @@ const Articles = (props) => {
                           }}
                         />
                       </span>
-                      <span className="articles-text32">
+                      <span className="articles-text65">
                         There is no replacement for Expertise. 
                       </span>
                       <br></br>
@@ -228,7 +347,7 @@ const Articles = (props) => {
                           }}
                         />
                       </span>
-                      <span className="articles-text38">
+                      <span className="articles-text71">
                         The Problem, Product, or Idea  does not need AI.
                       </span>
                       <span> </span>
