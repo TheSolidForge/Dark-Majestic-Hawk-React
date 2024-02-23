@@ -30,7 +30,7 @@ const Articles = (props) => {
             </span>
             <div className="articles-btn-group">
               <a
-                href="#Dynamic Reference Geometry"
+                href="#Mission Beach Sand Dunes"
                 className="articles-hero-button1 button"
               >
                 Get Started
@@ -99,7 +99,7 @@ const Articles = (props) => {
                   ></FeatureCard>
                 </div>
                 <article
-                  id="Dynamic Reference Geometry"
+                  id="Mission Beach Sand Dunes"
                   className="articles-feature-card"
                 >
                   <svg viewBox="0 0 1024 1024" className="articles-icon">
@@ -202,10 +202,7 @@ const Articles = (props) => {
                         </div>
                       </div>
                       <span className="articles-text34">
-                        <span>
-                          Here is a link to a quick video complication on this
-                          project:  
-                        </span>
+                        <span>-SOLIDFORGE</span>
                         <br></br>
                       </span>
                     </div>
